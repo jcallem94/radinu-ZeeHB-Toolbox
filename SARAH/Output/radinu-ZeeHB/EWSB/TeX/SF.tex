@@ -1,0 +1,67 @@
+\section{Fields} 
+\subsection{Gauge Fields} 
+\begin{center} 
+\begin{tabular}{|c|c|c|c|} 
+\hline \hline 
+Name & \(SU(N)\) & Coupling & Name \\ 
+ \hline 
+\(B\) & \(U(1)\) & \(g_1\) &\text{hypercharge}\\ 
+\(W\) & \(\text{SU}(2)\) & \(g_2\) &\text{left}\\ 
+\(g\) & \(\text{SU}(3)\) & \(g_3\) &\text{color}\\ 
+\hline \hline
+\end{tabular} 
+\end{center} 
+\subsection{Matter Superfields} 
+\begin{center} 
+\begin{tabular}{|c|c|c|c|c|} 
+\hline \hline 
+Name & Spin  &  Generations & \((U(1)\otimes\, \text{SU}(2)\otimes\, \text{SU}(3))\) \\ 
+\hline 
+\(H\) & \(0\)  & 1 & \((\frac{1}{2},{\bf 2},{\bf 1}) \) \\ 
+\(\text{Et}\) & \(0\)  & 1 & \((\frac{1}{2},{\bf 2},{\bf 1}) \) \\ 
+\(\text{Sc}\) & \(0\)  & 1 & \((-1,{\bf 1},{\bf 1}) \) \\ 
+\(q\) & \(\frac{1}{2}\)  & 3 & \((\frac{1}{6},{\bf 2},{\bf 3}) \) \\ 
+\(l\) & \(\frac{1}{2}\)  & 3 & \((-\frac{1}{2},{\bf 2},{\bf 1}) \) \\ 
+\(d\) & \(\frac{1}{2}\)  & 3 & \((\frac{1}{3},{\bf 1},{\bf \overline{3}}) \) \\ 
+\(u\) & \(\frac{1}{2}\)  & 3 & \((-\frac{2}{3},{\bf 1},{\bf \overline{3}}) \) \\ 
+\(e\) & \(\frac{1}{2}\)  & 3 & \((1,{\bf 1},{\bf 1}) \) \\ 
+\hline \hline
+\end{tabular} 
+\end{center} 
+\section{Lagrangian} 
+\subsection{Input Lagrangian for Eigenstates GaugeES} 
+\begin{align} 
+L = \, & +\eta^+ H^0 \mu \S_h^+ - \eta^0 H^+ \mu \S_h^+ - m_\eta^2 |\eta^0|^2 - m_\eta^2 |\eta^+|^2 - m_H^2 |H^0|^2 - m_H^2 |H^+|^2 \nonumber \\ 
+ &- m_h |\S_h^+|^2 -\frac{1}{2} \eta^{0,2} \lambda_2 \eta^{0,*,2} -\frac{1}{2} H^{0,2} \lambda_5 \eta^{0,*,2} - \eta^+ \lambda_2 |\eta^0|^2 \eta^{+,*} - H^0 H^+ \lambda_5 \eta^{0,*} \eta^{+,*} \nonumber \\ 
+ &-\frac{1}{2} \eta^{+,2} \lambda_2 \eta^{+,*,2} -\frac{1}{2} H^{+,2} \lambda_5 \eta^{+,*,2} +\eta^0 m_{12} H^{0,*} - H^0 \lambda_3 |\eta^0|^2 H^{0,*} - H^0 \lambda_4 |\eta^0|^2 H^{0,*} \nonumber \\ 
+ &- H^0 \lambda_3 |\eta^+|^2 H^{0,*} - \eta^0 \lambda_7 |\eta^+|^2 H^{0,*} - \eta^0 \lambda_6 |H^+|^2 H^{0,*} - \eta^0 \lambda_10 |\S_h^+|^2 H^{0,*} \nonumber \\ 
+ &- \eta^{0,2} \lambda_7 \eta^{0,*} H^{0,*} - \eta^0 H^+ \lambda_4 \eta^{+,*} H^{0,*} -\frac{1}{2} H^{0,2} \lambda_1 H^{0,*,2} -\frac{1}{2} \eta^{0,2} \lambda_5 H^{0,*,2} - \eta^0 H^0 \lambda_6 H^{0,*,2} \nonumber \\ 
+ &+\eta^+ m_{12} H^{+,*} - H^+ \lambda_3 |\eta^0|^2 H^{+,*} - \eta^+ \lambda_7 |\eta^0|^2 H^{+,*} - H^+ \lambda_3 |\eta^+|^2 H^{+,*} - H^+ \lambda_4 |\eta^+|^2 H^{+,*} \nonumber \\ 
+ &- H^+ \lambda_1 |H^0|^2 H^{+,*} - \eta^+ \lambda_6 |H^0|^2 H^{+,*} - \eta^+ \lambda_10 |\S_h^+|^2 H^{+,*} - \eta^+ H^0 \lambda_4 \eta^{0,*} H^{+,*} \nonumber \\ 
+ &- \eta^{+,2} \lambda_7 \eta^{+,*} H^{+,*} - \eta^0 \eta^+ \lambda_5 H^{0,*} H^{+,*} -\frac{1}{2} H^{+,2} \lambda_1 H^{+,*,2} -\frac{1}{2} \eta^{+,2} \lambda_5 H^{+,*,2} - \eta^+ H^+ \lambda_6 H^{+,*,2} \nonumber \\ 
+ &- H^0 |\S_h^+|^2 \eta^{0,*} \lambda_10^* - H^+ |\S_h^+|^2 \eta^{+,*} \lambda_10^* - H^0 |H^+|^2 \eta^{0,*} \lambda_6^* - H^+ |H^0|^2 \eta^{+,*} \lambda_6^* \nonumber \\ 
+ &- H^{0,2} \eta^{0,*} H^{0,*} \lambda_6^* - H^{+,2} \eta^{+,*} H^{+,*} \lambda_6^* - H^0 |\eta^+|^2 \eta^{0,*} \lambda_7^* - \eta^0 H^0 \eta^{0,*,2} \lambda_7^* \nonumber \\ 
+ &- H^+ |\eta^0|^2 \eta^{+,*} \lambda_7^* - \eta^+ H^+ \eta^{+,*,2} \lambda_7^* +H^0 \eta^{0,*} m_{12}^* +H^+ \eta^{+,*} m_{12}^* - \lambda_9 \S_h^+ |\eta^0|^2 \S_h^{+,*} \nonumber \\ 
+ &- \lambda_9 \S_h^+ |\eta^+|^2 \S_h^{+,*} - \lambda_8 \S_h^+ |H^0|^2 \S_h^{+,*} - \lambda_8 \S_h^+ |H^+|^2 \S_h^{+,*} +\eta^{+,*} H^{0,*} \mu^* \S_h^{+,*} \nonumber \\ 
+ &- \eta^{0,*} H^{+,*} \mu^* \S_h^{+,*} - \lambda_h \S_{h}^{+,2} \S_{h}^{+,*,2} +\S_h^+ Yh^*_{j k} \text{conj}\Big(\text{eL}\Big(\{\text{gt3}\}\Big)\Big(2\Big)\Big) \text{conj}\Big(\text{vL}\Big(\{\text{gt2}\}\Big)\Big(1\Big)\Big) +\S_h^+ Yh^*_{j k} \text{conj}\Big(\text{eL}\Big(\{\text{gt3}\}\Big)\Big(1\Big)\Big) \text{conj}\Big(\text{vL}\Big(\{\text{gt2}\}\Big)\Big(2\Big)\Big) - \S_h^+ Yh^*_{j k} \text{conj}\Big(\text{eL}\Big(\{\text{gt2}\}\Big)\Big(2\Big)\Big) \text{conj}\Big(\text{vL}\Big(\{\text{gt3}\}\Big)\Big(1\Big)\Big) - \S_h^+ Yh^*_{j k} \text{conj}\Big(\text{eL}\Big(\{\text{gt2}\}\Big)\Big(1\Big)\Big) \text{conj}\Big(\text{vL}\Big(\{\text{gt3}\}\Big)\Big(2\Big)\Big) \nonumber \\ 
+ &+\eta^0 d^*_{L,{k \gamma}} \epsilon^*_{d,{j k}} \delta_{\beta \gamma} d_{R,{j \beta}} +\eta^+ \epsilon^*_{d,{j k}} u^*_{L,{k \gamma}} \delta_{\beta \gamma} d_{R,{j \beta}} +H^0 d^*_{L,{k \gamma}} Y^*_{d,{j k}} \delta_{\beta \gamma} d_{R,{j \beta}} \nonumber \\ 
+ &+H^+ u^*_{L,{k \gamma}} Y^*_{d,{j k}} \delta_{\beta \gamma} d_{R,{j \beta}} +\eta^{0,*} d^*_{R,{j \beta}} \delta_{\beta \gamma} d_{L,{k \gamma}} \epsilon_{d,{j k}} +\eta^{0,*} e^*_{R,{k}} e_{L,{j}} \epsilon_{e,{j k}} +\eta^+ u^*_{R,{j \beta}} \delta_{\beta \gamma} d_{L,{k \gamma}} \epsilon_{u,{j k}} \nonumber \\ 
+ &+H^0 e^*_{L,{k}} Y^*_{e,{j k}} e_{R,{j}} +H^+ \nu^*_{L,{k}} Y^*_{e,{j k}} e_{R,{j}} +\eta^0 e^*_{L,{j}} \epsilon^*_{e,{j k}} e_{R,{k}} +\eta^+ \epsilon^*_{e,{j k}} \nu^*_{L,{j}} e_{R,{k}} \nonumber \\ 
+ &+\eta^{+,*} d^*_{R,{j \beta}} \delta_{\beta \gamma} \epsilon_{d,{j k}} u_{L,{k \gamma}} - \eta^0 u^*_{R,{j \beta}} \delta_{\beta \gamma} \epsilon_{u,{j k}} u_{L,{k \gamma}} +\eta^{+,*} d^*_{L,{k \gamma}} \epsilon^*_{u,{j k}} \delta_{\beta \gamma} u_{R,{j \beta}} \nonumber \\ 
+ &- \eta^{0,*} \epsilon^*_{u,{j k}} u^*_{L,{k \gamma}} \delta_{\beta \gamma} u_{R,{j \beta}} +H^{+,*} d^*_{L,{k \gamma}} Y^*_{u,{j k}} \delta_{\beta \gamma} u_{R,{j \beta}} - H^{0,*} u^*_{L,{k \gamma}} Y^*_{u,{j k}} \delta_{\beta \gamma} u_{R,{j \beta}} \nonumber \\ 
+ &+\eta^{+,*} e^*_{R,{k}} \epsilon_{e,{j k}} \nu_{L,{j}} +H^{0,*} d^*_{R,{j \beta}} \delta_{\beta \gamma} d_{L,{k \gamma}} Y_{d,{j k}} +H^{+,*} d^*_{R,{j \beta}} \delta_{\beta \gamma} u_{L,{k \gamma}} Y_{d,{j k}} +H^{0,*} e^*_{R,{j}} e_{L,{k}} Y_{e,{j k}} \nonumber \\ 
+ &+H^{+,*} e^*_{R,{j}} \nu_{L,{k}} Y_{e,{j k}} +H^+ u^*_{R,{j \beta}} \delta_{\beta \gamma} d_{L,{k \gamma}} Y_{u,{j k}} - H^0 u^*_{R,{j \beta}} \delta_{\beta \gamma} u_{L,{k \gamma}} Y_{u,{j k}} +\S_h^{+,*} Yh_{{j k}} \text{eL}\Big(\{\text{gt3}\}\Big)\Big(2\Big) \text{vL}\Big(\{\text{gt2}\}\Big)\Big(1\Big) +\S_h^{+,*} Yh_{{j k}} \text{eL}\Big(\{\text{gt3}\}\Big)\Big(1\Big) \text{vL}\Big(\{\text{gt2}\}\Big)\Big(2\Big) \nonumber \\ 
+ &- \S_h^{+,*} Yh_{{j k}} \text{eL}\Big(\{\text{gt2}\}\Big)\Big(2\Big) \text{vL}\Big(\{\text{gt3}\}\Big)\Big(1\Big) - \S_h^{+,*} Yh_{{j k}} \text{eL}\Big(\{\text{gt2}\}\Big)\Big(1\Big) \text{vL}\Big(\{\text{gt3}\}\Big)\Big(2\Big) 
+\end{align} 
+\subsection{Gauge fixing terms} 
+\subsubsection{Gauge fixing terms for eigenstates {\tt 'GaugeES'} } 
+\begin{align} 
+L_{GF} = \, &-\frac{1}{2} |\partial_{\mu}B|^2 \xi_{B}^{-1}  -\frac{1}{2} |\partial_{\mu}g|^2 \xi_{g}^{-1}  -\frac{1}{2} |\partial_{\mu}W|^2 \xi_{W}^{-1} 
+\end{align} 
+\subsubsection{Gauge fixing terms for eigenstates {\tt 'EWSB'} } 
+\begin{align} 
+L_{GF} = \, &-\frac{1}{2} |\partial_{\mu}g|^2 \xi_{g}^{-1} -\frac{1}{2} |\partial_{\mu}\gamma|^2 \xi_{\gamma}^{-1} - |\frac{i}{2} g_2 \Big(v H^{+,*}  + vv \eta^{+,*} \Big)\xi_{W^+}  + \partial_{\mu}W^+|^2 \xi_{W^+}^{-1} \nonumber \\ 
+ &-\frac{1}{2} |\frac{1}{2} \Big(2 \partial_{\mu}Z  - \Big(A^0 v  + \eta_i vv \Big)\xi_{Z} \Big(g_1 \sin\Theta_W   + g_2 \cos\Theta_W  \Big)\Big)|^2 \xi_{Z}^{-1} 
+\end{align} 
+\subsection{Fields integrated out} 
+None 

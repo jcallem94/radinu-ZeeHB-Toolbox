@@ -1,0 +1,8 @@
+SARAHModelName=radinuZeeHB
+SPhenoDir=/home/jcallem/ZeeHB/SARAH/Output/radinu-ZeeHB/EWSB/SPheno/
+NumberChargedHiggs=2
+NumberNeutralHiggs=2
+CHepDir=/home/jcallem/ZeeHB/SARAH/Output/radinu-ZeeHB/EWSB/CHep/
+WHIZARDdir=/home/jcallem/ZeeHB/SARAH/Output/radinu-ZeeHB/EWSB/WHIZARD_Omega/
+FeynArtsDir=/home/jcallem/ZeeHB/SARAH/Output/radinu-ZeeHB/EWSB/FeynArts/
+UFOdir=/home/jcallem/ZeeHB/SARAH/Output/radinu-ZeeHB/EWSB/UFO/

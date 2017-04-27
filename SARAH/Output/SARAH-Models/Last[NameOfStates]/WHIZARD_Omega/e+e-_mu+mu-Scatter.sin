@@ -1,0 +1,8 @@
+model=ModelName<>_SARAH
+ 
+process eemumus=Nonec,None=>Nonec,None
+ 
+sqrts=0.2 TeV 
+ 
+integrate (eemumu) {iterations=3:10000,6:20000} 
+ 

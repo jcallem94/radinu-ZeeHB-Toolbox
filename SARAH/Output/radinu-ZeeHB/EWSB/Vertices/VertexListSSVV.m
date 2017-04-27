@@ -1,0 +1,46 @@
+{{{Ah, Ah, conj[VWp[{lt3}]], VWp[{lt4}]}, {(I/2)*g2^2, g[lt3, lt4]}}, 
+ {{Ah, Ah, VZ[{lt3}], VZ[{lt4}]}, {(I/2)*(g2*Cos[ThetaW] + g1*Sin[ThetaW])^2, 
+   g[lt3, lt4]}}, {{Ah, Hm[{gt2}], VP[{lt3}], VWp[{lt4}]}, 
+  {(g1*g2*Cos[ThetaW]*ZP[gt2, 2])/2, g[lt3, lt4]}}, 
+ {{Ah, Hm[{gt2}], VWp[{lt3}], VZ[{lt4}]}, {-(g1*g2*Sin[ThetaW]*ZP[gt2, 2])/2, 
+   g[lt3, lt4]}}, {{Ah, conj[Hm[{gt2}]], conj[VWp[{lt3}]], VP[{lt4}]}, 
+  {-(g1*g2*Cos[ThetaW]*ZP[gt2, 2])/2, g[lt3, lt4]}}, 
+ {{Ah, conj[Hm[{gt2}]], conj[VWp[{lt3}]], VZ[{lt4}]}, 
+  {(g1*g2*Sin[ThetaW]*ZP[gt2, 2])/2, g[lt3, lt4]}}, 
+ {{etI, etI, conj[VWp[{lt3}]], VWp[{lt4}]}, {(I/2)*g2^2, g[lt3, lt4]}}, 
+ {{etI, etI, VZ[{lt3}], VZ[{lt4}]}, 
+  {(I/2)*(g2*Cos[ThetaW] + g1*Sin[ThetaW])^2, g[lt3, lt4]}}, 
+ {{etI, Hm[{gt2}], VP[{lt3}], VWp[{lt4}]}, {(g1*g2*Cos[ThetaW]*ZP[gt2, 3])/2, 
+   g[lt3, lt4]}}, {{etI, Hm[{gt2}], VWp[{lt3}], VZ[{lt4}]}, 
+  {-(g1*g2*Sin[ThetaW]*ZP[gt2, 3])/2, g[lt3, lt4]}}, 
+ {{etI, conj[Hm[{gt2}]], conj[VWp[{lt3}]], VP[{lt4}]}, 
+  {-(g1*g2*Cos[ThetaW]*ZP[gt2, 3])/2, g[lt3, lt4]}}, 
+ {{etI, conj[Hm[{gt2}]], conj[VWp[{lt3}]], VZ[{lt4}]}, 
+  {(g1*g2*Sin[ThetaW]*ZP[gt2, 3])/2, g[lt3, lt4]}}, 
+ {{hh[{gt1}], hh[{gt2}], conj[VWp[{lt3}]], VWp[{lt4}]}, 
+  {(I/2)*g2^2*(ZH[gt1, 1]*ZH[gt2, 1] + ZH[gt1, 2]*ZH[gt2, 2]), g[lt3, lt4]}}, 
+ {{hh[{gt1}], hh[{gt2}], VZ[{lt3}], VZ[{lt4}]}, 
+  {(I/2)*(g2*Cos[ThetaW] + g1*Sin[ThetaW])^2*(ZH[gt1, 1]*ZH[gt2, 1] + 
+     ZH[gt1, 2]*ZH[gt2, 2]), g[lt3, lt4]}}, 
+ {{hh[{gt1}], Hm[{gt2}], VP[{lt3}], VWp[{lt4}]}, 
+  {(I/2)*g1*g2*Cos[ThetaW]*(ZH[gt1, 1]*ZP[gt2, 2] + ZH[gt1, 2]*ZP[gt2, 3]), 
+   g[lt3, lt4]}}, {{hh[{gt1}], Hm[{gt2}], VWp[{lt3}], VZ[{lt4}]}, 
+  {(-I/2)*g1*g2*Sin[ThetaW]*(ZH[gt1, 1]*ZP[gt2, 2] + ZH[gt1, 2]*ZP[gt2, 3]), 
+   g[lt3, lt4]}}, {{hh[{gt1}], conj[Hm[{gt2}]], conj[VWp[{lt3}]], VP[{lt4}]}, 
+  {(I/2)*g1*g2*Cos[ThetaW]*(ZH[gt1, 1]*ZP[gt2, 2] + ZH[gt1, 2]*ZP[gt2, 3]), 
+   g[lt3, lt4]}}, {{hh[{gt1}], conj[Hm[{gt2}]], conj[VWp[{lt3}]], VZ[{lt4}]}, 
+  {(-I/2)*g1*g2*Sin[ThetaW]*(ZH[gt1, 1]*ZP[gt2, 2] + ZH[gt1, 2]*ZP[gt2, 3]), 
+   g[lt3, lt4]}}, {{Hm[{gt1}], conj[Hm[{gt2}]], VP[{lt3}], VP[{lt4}]}, 
+  {(I/2)*(4*g1^2*Cos[ThetaW]^2*ZP[gt1, 1]*ZP[gt2, 1] + 
+     (g1*Cos[ThetaW] + g2*Sin[ThetaW])^2*(ZP[gt1, 2]*ZP[gt2, 2] + 
+       ZP[gt1, 3]*ZP[gt2, 3])), g[lt3, lt4]}}, 
+ {{Hm[{gt1}], conj[Hm[{gt2}]], VP[{lt3}], VZ[{lt4}]}, 
+  {(-I/4)*(4*g1^2*Sin[2*ThetaW]*ZP[gt1, 1]*ZP[gt2, 1] + 
+     (-2*g1*g2*Cos[2*ThetaW] + (g1^2 - g2^2)*Sin[2*ThetaW])*
+      (ZP[gt1, 2]*ZP[gt2, 2] + ZP[gt1, 3]*ZP[gt2, 3])), g[lt3, lt4]}}, 
+ {{Hm[{gt1}], conj[Hm[{gt2}]], conj[VWp[{lt3}]], VWp[{lt4}]}, 
+  {(I/2)*g2^2*(ZP[gt1, 2]*ZP[gt2, 2] + ZP[gt1, 3]*ZP[gt2, 3]), g[lt3, lt4]}}, 
+ {{Hm[{gt1}], conj[Hm[{gt2}]], VZ[{lt3}], VZ[{lt4}]}, 
+  {(I/2)*(4*g1^2*Sin[ThetaW]^2*ZP[gt1, 1]*ZP[gt2, 1] + 
+     (g2*Cos[ThetaW] - g1*Sin[ThetaW])^2*(ZP[gt1, 2]*ZP[gt2, 2] + 
+       ZP[gt1, 3]*ZP[gt2, 3])), g[lt3, lt4]}}}

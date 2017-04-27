@@ -1,0 +1,4 @@
+:
+CALCHEP=/home/restrepo/prog/toolbox/mybinders/radinu/ZeeHB/calchep
+export CALCHEP
+
