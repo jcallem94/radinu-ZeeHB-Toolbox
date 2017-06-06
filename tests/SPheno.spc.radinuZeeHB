@@ -18,7 +18,7 @@
 #  
 # in case of problems send email to florian.staub@cern.ch and goodsell@lpthe.jussieu.fr 
 # ----------------------------------------------------------------------
-# Created: 07.04.2017,  16:08
+# Created: 06.06.2017,  00:23
 Block SPINFO         # Program information
      1   SPhenoSARAH      # spectrum calculator
      2   v3.3.8      # version number of SPheno
@@ -31,7 +31,7 @@ Block MINPAR  # Input parameters
     1    2.57733888E-01  # lambda1Input
     2    1.30000000E-01  # lambda2Input
     3    1.00000000E-03  # lambda3Input
-    4   -1.14778503E+01  # lambda4Input
+    4    1.85424807E+01  # lambda4Input
     5   -1.33196920E-01  # lambda5Input
     6    1.00000000E-03  # lambda6Input
     7    0.00000000E+00  # lambda7Input
@@ -39,9 +39,9 @@ Block MINPAR  # Input parameters
     9    0.00000000E+00  # lambda9Input
    10    0.00000000E+00  # lambda10Input
    11    0.00000000E+00  # lambdahInput
-   12    6.40017641E+05  # MhInput
-   13    1.44740880E+01  # MuInput
-   14    9.99952047E+05  # mEt2Input
+   12    4.00024501E+04  # MhInput
+   13    2.01029000E+00  # MuInput
+   14    8.99672376E+04  # mEt2Input
 Block gaugeGUT Q= -1.00000000E+00  # (GUT scale)
    1    0.00000000E+00  # g1(Q)^DRbar
    2    0.00000000E+00  # g2(Q)^DRbar
@@ -60,7 +60,7 @@ Block GAUGE Q=  1.60000000E+02  # (Renormalization Scale)
 Block HDM Q=  1.60000000E+02  # (Renormalization Scale)
    2    2.57733888E-01  # lam1
    3    1.30000000E-01  # lam2
-   5   -1.14778503E+01  # lam4
+   5    1.85424807E+01  # lam4
    4    1.00000000E-03  # lam3
    8    0.00000000E+00  # lam7
    6   -1.33196920E-01  # lam5
@@ -69,10 +69,10 @@ Block HDM Q=  1.60000000E+02  # (Renormalization Scale)
    9    0.00000000E+00  # lam8
   12    0.00000000E+00  # lamh
   11    0.00000000E+00  # lam10
-  15    1.44740880E+01  # mu
-   1    9.99952047E+05  # mEt2
+  15    2.01029000E+00  # mu
+   1    8.99672376E+04  # mEt2
   13    3.03122843E+01  # m12
-  14    6.40017641E+05  # mh
+  14    4.00024501E+04  # mh
 Block SM Q=  1.60000000E+02  # (Renormalization Scale)
    3   -7.81250289E+03  # mH2
 Block VV Q=  1.60000000E+02  # (Renormalization Scale)
@@ -86,9 +86,9 @@ Block TREEHDM Q=  1.60000000E+02  # (Renormalization Scale)
 Block TREESM Q=  1.60000000E+02  # (Renormalization Scale)
    3   -8.09646334E+03  # mH2
 Block LOOPHDM Q=  1.60000000E+02  # (Renormalization Scale)
-  13   -4.50197556E+02  # m12
+  13   -4.08861950E+02  # m12
 Block LOOPSM Q=  1.60000000E+02  # (Renormalization Scale)
-   3    1.47720182E+05  # mH2
+   3   -2.75516711E+05  # mH2
 Block epsU Q=  1.60000000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # Real(epsU(1,1),dp)
   1  2     0.00000000E+00   # Real(epsU(1,2),dp)
@@ -120,15 +120,15 @@ Block epsD Q=  1.60000000E+02  # (Renormalization Scale)
   3  2     0.00000000E+00   # Real(epsD(3,2),dp)
   3  3     2.40086062E-02   # Real(epsD(3,3),dp)
 Block epsE Q=  1.60000000E+02  # (Renormalization Scale)
-  1  1     1.00000000E-03   # Real(epsE(1,1),dp)
-  1  2     1.00000000E-03   # Real(epsE(1,2),dp)
-  1  3    -7.23005294E-06   # Real(epsE(1,3),dp)
-  2  1     9.63295542E-02   # Real(epsE(2,1),dp)
-  2  2     1.00000000E-03   # Real(epsE(2,2),dp)
-  2  3    -3.74808089E-07   # Real(epsE(2,3),dp)
-  3  1     1.00000000E-03   # Real(epsE(3,1),dp)
-  3  2    -1.00000000E-03   # Real(epsE(3,2),dp)
-  3  3     0.00000000E+00   # Real(epsE(3,3),dp)
+  1  1    -4.25517200E-03   # Real(epsE(1,1),dp)
+  1  2     2.41298300E-05   # Real(epsE(1,2),dp)
+  1  3    -9.79703279E-07   # Real(epsE(1,3),dp)
+  2  1    -2.62280991E-03   # Real(epsE(2,1),dp)
+  2  2     3.10921200E-11   # Real(epsE(2,2),dp)
+  2  3    -5.24349841E-07   # Real(epsE(2,3),dp)
+  3  1    -4.98746200E-04   # Real(epsE(3,1),dp)
+  3  2    -2.22779500E-05   # Real(epsE(3,2),dp)
+  3  3     3.24678700E-08   # Real(epsE(3,3),dp)
 Block Yd Q=  1.60000000E+02  # (Renormalization Scale)
   1  1     2.87184285E-05   # Real(Yd(1,1),dp)
   1  2     0.00000000E+00   # Real(Yd(1,2),dp)
@@ -151,20 +151,20 @@ Block Ye Q=  1.60000000E+02  # (Renormalization Scale)
   3  3     1.02047490E-02   # Real(Ye(3,3),dp)
 Block Yh Q=  1.60000000E+02  # (Renormalization Scale)
   1  1     0.00000000E+00   # Real(Yh(1,1),dp)
-  1  2    -7.14488511E-03   # Real(Yh(1,2),dp)
-  1  3     3.03594362E-02   # Real(Yh(1,3),dp)
-  2  1     7.14488511E-03   # Real(Yh(2,1),dp)
+  1  2    -1.02757315E-01   # Real(Yh(1,2),dp)
+  1  3    -2.90458830E-01   # Real(Yh(1,3),dp)
+  2  1     1.02757315E-01   # Real(Yh(2,1),dp)
   2  2     0.00000000E+00   # Real(Yh(2,2),dp)
-  2  3    -2.18343957E-03   # Real(Yh(2,3),dp)
-  3  1    -3.03594362E-02   # Real(Yh(3,1),dp)
-  3  2     2.18343957E-03   # Real(Yh(3,2),dp)
+  2  3    -2.61165166E-02   # Real(Yh(2,3),dp)
+  3  1     2.90458830E-01   # Real(Yh(3,1),dp)
+  3  2     2.61165166E-02   # Real(Yh(3,2),dp)
   3  3     0.00000000E+00   # Real(Yh(3,3),dp)
 Block MASS  # Mass spectrum
 #   PDG code      mass          particle
         25     1.25000000E+02  # hh_1
         35     8.05000000E+02  # hh_2
-        37     8.00000000E+02  # Hm_2
-    900037     1.00000000E+03  # Hm_3
+        37     2.00000000E+02  # Hm_2
+    900037     3.00000000E+02  # Hm_3
         36     8.10000000E+02  # etI
         23     9.11887000E+01  # VZ
         24     8.03497269E+01  # VWp
@@ -177,13 +177,13 @@ Block MASS  # Mass spectrum
         11     5.10998930E-04  # Fe_1
         13     1.05658372E-01  # Fe_2
         15     1.77669000E+00  # Fe_3
-        12    -4.82702406E-11  # Fv_1
-        14     7.49104131E-11  # Fv_2
-        16    -1.11792439E-10  # Fv_3
+        12    -1.34203199E-15  # Fv_1
+        14     5.11642701E-11  # Fv_2
+        16    -5.19846102E-11  # Fv_3
 Block SCALARMIX Q=  1.60000000E+02  # ()
   1  1     9.99999995E-01   # ZH(1,1)
-  1  2    -9.58642771E-05   # ZH(1,2)
-  2  1     9.58642771E-05   # ZH(2,1)
+  1  2    -9.58642773E-05   # ZH(1,2)
+  2  1     9.58642773E-05   # ZH(2,1)
   2  2     9.99999995E-01   # ZH(2,2)
 Block CHARGEMIX Q=  1.60000000E+02  # ()
   1  1     0.00000000E+00   # ZP(1,1)
@@ -196,15 +196,15 @@ Block CHARGEMIX Q=  1.60000000E+02  # ()
   3  2     0.00000000E+00   # ZP(3,2)
   3  3     9.99975498E-01   # ZP(3,3)
 Block UVMIX Q=  1.60000000E+02  # ()
-  1  1    -2.53590252E-01   # Real(UV(1,1),dp)
-  1  2    -6.05107262E-01   # Real(UV(1,2),dp)
-  1  3    -7.54676875E-01   # Real(UV(1,3),dp)
-  2  1     2.71692266E-01   # Real(UV(2,1),dp)
-  2  2    -7.93329618E-01   # Real(UV(2,2),dp)
-  2  3     5.44804029E-01   # Real(UV(2,3),dp)
-  3  1     9.28372391E-01   # Real(UV(3,1),dp)
-  3  2     6.68828791E-02   # Real(UV(3,2),dp)
-  3  3    -3.65583621E-01   # Real(UV(3,3),dp)
+  1  1    -4.84563438E-01   # Real(UV(1,1),dp)
+  1  2     7.18858284E-01   # Real(UV(1,2),dp)
+  1  3    -4.98438604E-01   # Real(UV(1,3),dp)
+  2  1     8.58708012E-01   # Real(UV(2,1),dp)
+  2  2     2.82255473E-01   # Real(UV(2,2),dp)
+  2  3    -4.27729352E-01   # Real(UV(2,3),dp)
+  3  1     1.66789764E-01   # Real(UV(3,1),dp)
+  3  2     6.35275228E-01   # Real(UV(3,2),dp)
+  3  3     7.54060050E-01   # Real(UV(3,3),dp)
 Block UDLMIX Q=  1.60000000E+02  # ()
   1  1    -1.00000000E+00   # Real(ZDL(1,1),dp)
   1  2     0.00000000E+00   # Real(ZDL(1,2),dp)
@@ -293,49 +293,49 @@ Block HiggsLHC7 # Higgs production cross section at LHC7 [pb] (rescaled SM value
   3        25        5.82370947E-01 # W-H production 
   4        25        3.40051047E-01 # Z-H production 
   5        25        8.62540607E-02 # t-t-H production 
-  1        35        6.48292059E-02 # Gluon fusion 
-  2        35        3.68986914E-10 # Vector boson fusion 
+  1        35        6.48292061E-02 # Gluon fusion 
+  2        35        3.68986915E-10 # Vector boson fusion 
 Block HiggsLHC8 # Higgs production cross section at LHC8 [pb] (rescaled SM values from HXSWG) 
   1        25        2.04327483E+01 # Gluon fusion 
   2        25        1.67542743E+00 # Vector boson fusion 
   3        25        7.46562641E-01 # W-H production 
   4        25        4.24712893E-01 # Z-H production 
   5        25        1.30557304E-01 # t-t-H production 
-  1        35        1.06175014E-01 # Gluon fusion 
-  2        35        6.14831518E-10 # Vector boson fusion 
+  1        35        1.06175015E-01 # Gluon fusion 
+  2        35        6.14831520E-10 # Vector boson fusion 
 Block HiggsLHC13 # Higgs production cross section at LHC13 [pb] (rescaled SM values from SusHI 1.5.0) 
   1        25        4.77373815E+01 # Gluon fusion 
-  1        35        4.42156004E-01 # Gluon fusion 
+  1        35        4.42156006E-01 # Gluon fusion 
 Block HiggsLHC14 # Higgs production cross section at LHC14 [pb] (rescaled SM values from SusHI 1.5.0)
   1        25        5.37566854E+01 # Gluon fusion 
-  1        35        5.15077151E-01 # Gluon fusion 
+  1        35        5.15077153E-01 # Gluon fusion 
 Block HiggsFCC100 # Higgs production cross section at FCC-pp [pb] (rescaled SM values from SusHI 1.5.0)
   1        25        7.91646479E+02 # Gluon fusion 
-  1        35        3.58004952E+01 # Gluon fusion 
+  1        35        3.58004953E+01 # Gluon fusion 
 Block HiggsBoundsInputHiggsCouplingsFermions # 
     4.56581846E-01    0.00000000E+00        3             25         5         5 # h_1 b b coupling 
     3.29293301E-01    0.00000000E+00        3             25         3         3 # h_1 s s coupling 
     1.00150694E+00    0.00000000E+00        3             25         6         6 # h_1 t t coupling  
     2.32836729E-01    0.00000000E+00        3             25         4         4 # h_1 c c coupling 
-    9.97644702E-01    0.00000000E+00        3             25        15        15 # h_1 tau tau coupling 
-    9.75786149E-01    0.00000000E+00        3             25        13        13 # h_1 mu mu coupling  
+    9.97644701E-01    0.00000000E+00        3             25        15        15 # h_1 tau tau coupling 
+    9.76098257E-01    0.00000000E+00        3             25        13        13 # h_1 mu mu coupling  
     1.00011501E+00    0.00000000E+00        3             35         5         5 # h_2 b b coupling 
-    2.38466739E-09    0.00000000E+00        3             35         3         3 # h_2 s s coupling 
+    2.38466740E-09    0.00000000E+00        3             35         3         3 # h_2 s s coupling 
     9.98873707E-01    0.00000000E+00        3             35         6         6 # h_2 t t coupling  
-    1.31395569E-09    0.00000000E+00        3             35         4         4 # h_2 c c coupling 
-    9.26377637E-09    0.00000000E+00        3             35        15        15 # h_2 tau tau coupling 
-    2.71557010E+00    0.00000000E+00        3             35        13        13 # h_2 mu mu coupling  
+    1.31395569E-09    2.63355183E-41        3             35         4         4 # h_2 c c coupling 
+    9.88635610E-09    0.00000000E+00        3             35        15        15 # h_2 tau tau coupling 
+    9.07346159E-09    0.00000000E+00        3             35        13        13 # h_2 mu mu coupling  
 Block HiggsBoundsInputHiggsCouplingsBosons # 
     1.07591530E+00        3             25        24        24 # h_1 W W coupling 
     1.07466527E+00        3             25        23        23 # h_1 Z Z coupling  
     0.00000000E+00        3             25        23        22 # h_1 Z gamma coupling 
-    1.08718650E+00        3             25        22        22 # h_1 gamma gamma coupling 
+    1.08715645E+00        3             25        22        22 # h_1 gamma gamma coupling 
     1.04590360E+00        3             25        21        21 # h_1 g g coupling 
     0.00000000E+00        4             25        21        21        23 # h_1 g g Z coupling 
-    1.02479419E-08        3             35        24        24 # h_2 W W coupling 
-    1.02745533E-08        3             35        23        23 # h_2 Z Z coupling  
+    1.02479420E-08        3             35        24        24 # h_2 W W coupling 
+    1.02745534E-08        3             35        23        23 # h_2 Z Z coupling  
     0.00000000E+00        3             35        23        22 # h_2 Z gamma coupling 
-    3.25460429E+00        3             35        22        22 # h_2 gamma gamma coupling 
+    3.25459560E+00        3             35        22        22 # h_2 gamma gamma coupling 
     9.98663749E-01        3             35        21        21 # h_2 g g coupling 
     0.00000000E+00        4             35        21        21        23 # h_2 g g Z coupling 
     0.00000000E+00        3             25        25        23 # h_1 h_1 Z coupling  
@@ -343,209 +343,209 @@ Block HiggsBoundsInputHiggsCouplingsBosons #
     0.00000000E+00        3             35        25        23 # h_2 h_1 Z coupling  
     0.00000000E+00        3             35        35        23 # h_2 h_2 Z coupling  
 Block EFFHIGGSCOUPLINGS # values of loop-induced couplings 
-        25           22           22     0.32704917E-04 # H-Photon-Photon 
+        25           22           22     0.32704465E-04 # H-Photon-Photon 
         25           21           21     0.66127636E-04 # H-Gluon-Gluon 
         25           22           23     0.00000000E+00 # H-Photon-Z (not yet calculated by SPheno) 
-        35           22           22     0.92208638E-05 # H-Photon-Photon 
+        35           22           22     0.92208514E-05 # H-Photon-Photon 
         35           21           21     0.55480234E-04 # H-Gluon-Gluon 
         35           22           23     0.00000000E+00 # H-Photon-Z (not yet calculated by SPheno) 
 Block SPhenoLowEnergy # low energy observables 
-      20    1.61899821E-17  # (g-2)_e
-      21    3.40868800E-13  # (g-2)_mu
-      22    9.79967203E-10  # (g-2)_tau
+      20    4.54533207E-20  # (g-2)_e
+      21    2.19146019E-14  # (g-2)_mu
+      22    9.79950307E-10  # (g-2)_tau
       23    0.00000000E+00  # EDM(e)
       24    0.00000000E+00  # EDM(mu)
       25    0.00000000E+00  # EDM(tau)
-      39    5.44915395E-03  # delta(rho)
+      39    3.58342809E-02  # delta(rho)
 Block FlavorKitQFV # quark flavor violating observables 
-     200    3.14768414E-04  # BR(B->X_s gamma)
-     201    9.99264806E-01  # BR(B->X_s gamma)/BR(B->X_s gamma)_SM
+     200    3.14092386E-04  # BR(B->X_s gamma)
+     201    9.97118686E-01  # BR(B->X_s gamma)/BR(B->X_s gamma)_SM
      300    2.63375744E-03  # BR(D->mu nu)
      301    9.98906539E-01  # BR(D->mu nu)/BR(D->mu nu)_SM
-     400    2.49253440E-02  # BR(Ds->mu nu)
-     401    9.98787403E-01  # BR(Ds->mu nu)/BR(Ds->mu nu)_SM
+     400    2.49253439E-02  # BR(Ds->mu nu)
+     401    9.98787400E-01  # BR(Ds->mu nu)/BR(Ds->mu nu)_SM
      402    2.43597240E-01  # BR(Ds->tau nu)
      403    9.98787311E-01  # BR(Ds->tau nu)/BR(Ds->tau nu)_SM
-     500    2.25844544E-06  # BR(B->mu nu)
-     501    9.78404224E-01  # BR(B->mu nu)/BR(B->mu nu)_SM
-     502    5.09154189E-04  # BR(B->tau nu)
-     503    9.91294158E-01  # BR(B->tau nu)/BR(B->tau nu)_SM
+     500    2.29715013E-06  # BR(B->mu nu)
+     501    9.95171876E-01  # BR(B->mu nu)/BR(B->mu nu)_SM
+     502    5.09177686E-04  # BR(B->tau nu)
+     503    9.91339904E-01  # BR(B->tau nu)/BR(B->tau nu)_SM
      600    2.82849121E+00  # BR(K->mu nu)
-     601    9.99923711E-01  # BR(K->mu nu)/BR(K->mu nu)_SM
-     602    2.47647734E-05  # R_K = BR(K->e nu)/(K->mu nu)
-     603    2.47609950E-05  # R_K^SM = BR(K->e nu)_SM/(K->mu nu)_SM
-    1900    1.78630105E+01  # Delta(M_Bs)
-    1901    1.00082206E+00  # Delta(M_Bs)/Delta(M_Bs)_SM
-    1902    3.99321026E-01  # Delta(M_Bd)
-    1903    1.00096598E+00  # Delta(M_Bd)/Delta(M_Bd)_SM
-    4000    2.46707464E-15  # BR(B^0_d->e e)
-    4001    9.95837760E-01  # BR(B^0_d->e e)/BR(B^0_d->e e)_SM
-    4002    7.65265719E-14  # BR(B^0_s->e e)
-    4003    9.94835479E-01  # BR(B^0_s->e e)/BR(B^0_s->e e)_SM
-    4004    1.05881879E-10  # BR(B^0_d->mu mu)
-    4005    1.00047936E+00  # BR(B^0_d->mu mu)/BR(B^0_d->mu mu)_SM
-    4006    3.28774566E-09  # BR(B^0_s->mu mu)
-    4007    1.00047487E+00  # BR(B^0_s->mu mu)/BR(B^0_s->mu mu)_SM
-    4008    2.21628221E-08  # BR(B^0_d->tau tau)
-    4009    1.00050100E+00  # BR(B^0_d->tau tau)/BR(B^0_d->tau tau)_SM
-    4010    6.97287564E-07  # BR(B^0_s->tau tau)
-    4011    1.00050141E+00  # BR(B^0_s->tau tau)/BR(B^0_s->tau tau)_SM
-    5000    1.64203004E-06  # BR(B-> s e e)
-    5001    9.91989345E-01  # BR(B-> s e e)/BR(B-> s e e)_SM
-    5002    1.59160470E-06  # BR(B-> s mu mu)
-    5003    9.91783788E-01  # BR(B-> s mu mu)/BR(B-> s mu mu)_SM
-    6000    1.10228418E-07  # BR(B -> K mu mu)
-    6001    9.93048814E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
-    7000    4.09990995E-05  # BR(B->s nu nu)
-    7001    1.00032333E+00  # BR(B->s nu nu)/BR(B->s nu nu)_SM
-    7002    1.89836960E-06  # BR(B->D nu nu)
-    7003    1.00032309E+00  # BR(B->D nu nu)/BR(B->D nu nu)_SM
-    8000    1.29975749E-10  # BR(K^+ -> pi^+ nu nu)
-    8001    1.00000106E+00  # BR(K^+ -> pi^+ nu nu)/BR(K^+ -> pi^+ nu nu)_SM
-    8002    3.02793570E-11  # BR(K_L -> pi^0 nu nu)
-    8003    1.00000185E+00  # BR(K_L -> pi^0 nu nu)/BR(K_L -> pi^0 nu nu)_SM
-    9100    1.94739313E-15  # Delta(M_K)
-    9102    9.99999331E-01  # Delta(M_K)/Delta(M_K)_SM
-    9103    1.84342659E-03  # epsilon_K
-    9104    1.00000355E+00  # epsilon_K/epsilon_K^SM
+     601    9.99923710E-01  # BR(K->mu nu)/BR(K->mu nu)_SM
+     602    2.47647727E-05  # R_K = BR(K->e nu)/(K->mu nu)
+     603    2.47609935E-05  # R_K^SM = BR(K->e nu)_SM/(K->mu nu)_SM
+    1900    1.78957155E+01  # Delta(M_Bs)
+    1901    1.00265445E+00  # Delta(M_Bs)/Delta(M_Bs)_SM
+    1902    4.00051694E-01  # Delta(M_Bd)
+    1903    1.00279752E+00  # Delta(M_Bd)/Delta(M_Bd)_SM
+    4000    5.21445199E-15  # BR(B^0_d->e e)
+    4001    2.10482006E+00  # BR(B^0_d->e e)/BR(B^0_d->e e)_SM
+    4002    1.62488652E-13  # BR(B^0_s->e e)
+    4003    2.11233134E+00  # BR(B^0_s->e e)/BR(B^0_s->e e)_SM
+    4004    1.06046594E-10  # BR(B^0_d->mu mu)
+    4005    1.00203575E+00  # BR(B^0_d->mu mu)/BR(B^0_d->mu mu)_SM
+    4006    3.29288003E-09  # BR(B^0_s->mu mu)
+    4007    1.00203728E+00  # BR(B^0_s->mu mu)/BR(B^0_s->mu mu)_SM
+    4008    2.21967881E-08  # BR(B^0_d->tau tau)
+    4009    1.00203434E+00  # BR(B^0_d->tau tau)/BR(B^0_d->tau tau)_SM
+    4010    6.98357030E-07  # BR(B^0_s->tau tau)
+    4011    1.00203593E+00  # BR(B^0_s->tau tau)/BR(B^0_s->tau tau)_SM
+    5000    1.64393081E-06  # BR(B-> s e e)
+    5001    9.93137646E-01  # BR(B-> s e e)/BR(B-> s e e)_SM
+    5002    1.59342282E-06  # BR(B-> s mu mu)
+    5003    9.92916716E-01  # BR(B-> s mu mu)/BR(B-> s mu mu)_SM
+    6000    1.10503887E-07  # BR(B -> K mu mu)
+    6001    9.95530511E-01  # BR(B -> K mu mu)/BR(B -> K mu mu)_SM
+    7000    4.10398118E-05  # BR(B->s nu nu)
+    7001    1.00131666E+00  # BR(B->s nu nu)/BR(B->s nu nu)_SM
+    7002    1.90025330E-06  # BR(B->D nu nu)
+    7003    1.00131569E+00  # BR(B->D nu nu)/BR(B->D nu nu)_SM
+    8000    1.29976174E-10  # BR(K^+ -> pi^+ nu nu)
+    8001    1.00000433E+00  # BR(K^+ -> pi^+ nu nu)/BR(K^+ -> pi^+ nu nu)_SM
+    8002    3.02795291E-11  # BR(K_L -> pi^0 nu nu)
+    8003    1.00000753E+00  # BR(K_L -> pi^0 nu nu)/BR(K_L -> pi^0 nu nu)_SM
+    9100    1.94739337E-15  # Delta(M_K)
+    9102    9.99999456E-01  # Delta(M_K)/Delta(M_K)_SM
+    9103    1.84345075E-03  # epsilon_K
+    9104    1.00001665E+00  # epsilon_K/epsilon_K^SM
 Block FlavorKitLFV # lepton flavor violating observables 
-     701    1.87670429E-14  # BR(mu->e gamma)
-     702    4.04132667E-17  # BR(tau->e gamma)
-     703    1.07714468E-14  # BR(tau->mu gamma)
-     800    5.92075455E-14  # CR(mu-e, Al)
-     801    1.10088027E-13  # CR(mu-e, Ti)
-     802    1.45509405E-13  # CR(mu-e, Sr)
-     803    1.77614430E-13  # CR(mu-e, Sb)
-     804    9.91943664E-14  # CR(mu-e, Au)
-     805    9.41547341E-14  # CR(mu-e, Pb)
-     901    4.58335791E-12  # BR(mu->3e)
-     902    8.65088271E-17  # BR(tau->3e)
-     903    8.98809292E-16  # BR(tau->3mu)
-     904    3.82146097E-16  # BR(tau- -> e- mu+ mu-)
-     905    9.76929930E-13  # BR(tau- -> mu- e+ e-)
-     906    8.91840973E-13  # BR(tau- -> e+ mu- mu-)
-     907    2.28802302E-16  # BR(tau- -> mu+ e- e-)
-    1001    1.47635175E-16  # BR(Z->e mu)
-    1002    6.13120455E-18  # BR(Z->e tau)
-    1003    1.29661577E-15  # BR(Z->mu tau)
-    1101    3.51925145E-03  # BR(h->e mu)
-    1102    3.81259343E-07  # BR(h->e tau)
-    1103    3.76296352E-07  # BR(h->mu tau)
-    2001    2.54041224E-25  # BR(tau->e pi)
-    2002    1.10286563E-26  # BR(tau->e eta)
-    2003    1.21583510E-26  # BR(tau->e eta')
-    2004    4.02633740E-23  # BR(tau->mu pi)
-    2005    5.90650937E-24  # BR(tau->mu eta)
-    2006    6.48504873E-24  # BR(tau->mu eta')
+     701    1.28478058E-08  # BR(mu->e gamma)
+     702    2.85395241E-10  # BR(tau->e gamma)
+     703    3.54238504E-08  # BR(tau->mu gamma)
+     800    1.11490796E-10  # CR(mu-e, Al)
+     801    2.00672235E-10  # CR(mu-e, Ti)
+     802    2.71593869E-10  # CR(mu-e, Sr)
+     803    3.05534647E-10  # CR(mu-e, Sb)
+     804    1.64593827E-10  # CR(mu-e, Au)
+     805    1.54823621E-10  # CR(mu-e, Pb)
+     901    3.12791500E-10  # BR(mu->3e)
+     902    8.31721259E-12  # BR(tau->3e)
+     903    8.50906626E-11  # BR(tau->3mu)
+     904    1.36305019E-10  # BR(tau- -> e- mu+ mu-)
+     905    1.28080282E-08  # BR(tau- -> mu- e+ e-)
+     906    6.73295583E-12  # BR(tau- -> e+ mu- mu-)
+     907    5.44363820E-14  # BR(tau- -> mu+ e- e-)
+    1001    1.20804264E-10  # BR(Z->e mu)
+    1002    1.51197789E-11  # BR(Z->e tau)
+    1003    1.87014953E-09  # BR(Z->mu tau)
+    1101    4.21362093E-07  # BR(h->e mu)
+    1102    1.51844957E-08  # BR(h->e tau)
+    1103    3.00811512E-11  # BR(h->mu tau)
+    2001    1.84336767E-21  # BR(tau->e pi)
+    2002    2.73118599E-22  # BR(tau->e eta)
+    2003    3.01240739E-22  # BR(tau->e eta')
+    2004    2.25166374E-19  # BR(tau->mu pi)
+    2005    3.32885402E-20  # BR(tau->mu eta)
+    2006    3.64358427E-20  # BR(tau->mu eta')
 Block FWCOEF Q=  1.60000000E+02  # Wilson coefficients at scale Q 
      0305 4422   00   0    -0.17242737E-08    # coeffC7sm
-     0305 4422   00   2    -0.17222372E-08    # coeffC7
-     0305 4322   00   2    -0.33128294E-10    # coeffC7p
-     0305 4422   00   1     0.20364771E-11    # coeffC7NP
-     0305 4322   00   1    -0.33128294E-10    # coeffC7pNP
+     0305 4422   00   2    -0.17159243E-08    # coeffC7
+     0305 4322   00   2    -0.32871053E-10    # coeffC7p
+     0305 4422   00   1     0.83493760E-11    # coeffC7NP
+     0305 4322   00   1    -0.32871053E-10    # coeffC7pNP
      0305 6421   00   0    -0.86378433E-09    # coeffC8sm
-     0305 6421   00   2    -0.86135413E-09    # coeffC8
-     0305 6321   00   2    -0.16533938E-10    # coeffC8p
-     0305 6421   00   1     0.24301974E-11    # coeffC8NP
-     0305 6321   00   1    -0.16533938E-10    # coeffC8pNP
+     0305 6421   00   2    -0.85544149E-09    # coeffC8
+     0305 6321   00   2    -0.16297034E-10    # coeffC8p
+     0305 6421   00   1     0.83428457E-11    # coeffC8NP
+     0305 6321   00   1    -0.16297034E-10    # coeffC8pNP
  03051111 4133   00   0     0.10360690E-08    # coeffC9eeSM
- 03051111 4133   00   2     0.10361651E-08    # coeffC9ee
- 03051111 4233   00   2    -0.80137748E-15    # coeffC9Pee
- 03051111 4133   00   1     0.96050383E-13    # coeffC9eeNP
- 03051111 4233   00   1    -0.80137748E-15    # coeffC9PeeNP
+ 03051111 4133   00   2     0.10364662E-08    # coeffC9ee
+ 03051111 4233   00   2    -0.80795394E-15    # coeffC9Pee
+ 03051111 4133   00   1     0.39715971E-12    # coeffC9eeNP
+ 03051111 4233   00   1    -0.80795394E-15    # coeffC9PeeNP
  03051111 4137   00   0    -0.39426686E-08    # coeffC10eeSM
- 03051111 4137   00   2    -0.39436547E-08    # coeffC10ee
- 03051111 4237   00   2    -0.80812881E-14    # coeffC10Pee
- 03051111 4137   00   1    -0.98609156E-12    # coeffC10eeNP
- 03051111 4237   00   1    -0.80812881E-14    # coeffC10PeeNP
+ 03051111 4137   00   2    -0.39466745E-08    # coeffC10ee
+ 03051111 4237   00   2    -0.81486268E-14    # coeffC10Pee
+ 03051111 4137   00   1    -0.40059268E-11    # coeffC10eeNP
+ 03051111 4237   00   1    -0.81486268E-14    # coeffC10PeeNP
  03051313 4133   00   0     0.10360685E-08    # coeffC9mumuSM
- 03051313 4133   00   2     0.10361661E-08    # coeffC9mumu
- 03051313 4233   00   2    -0.80289221E-15    # coeffC9Pmumu
- 03051313 4133   00   1     0.97551477E-13    # coeffC9mumuNP
- 03051313 4233   00   1    -0.80289221E-15    # coeffC9PmumuNP
+ 03051313 4133   00   2     0.10364657E-08    # coeffC9mumu
+ 03051313 4233   00   2    -0.80794209E-15    # coeffC9Pmumu
+ 03051313 4133   00   1     0.39719278E-12    # coeffC9mumuNP
+ 03051313 4233   00   1    -0.80794209E-15    # coeffC9PmumuNP
  03051313 4137   00   0    -0.39426691E-08    # coeffC10mumuSM
- 03051313 4137   00   2    -0.39436537E-08    # coeffC10mumu
- 03051313 4237   00   2    -0.80813302E-14    # coeffC10Pmumu
- 03051313 4137   00   1    -0.98458697E-12    # coeffC10mumuNP
- 03051313 4237   00   1    -0.80813302E-14    # coeffC10PmumuNP
+ 03051313 4137   00   2    -0.39466750E-08    # coeffC10mumu
+ 03051313 4237   00   2    -0.81486347E-14    # coeffC10Pmumu
+ 03051313 4137   00   1    -0.40059015E-11    # coeffC10mumuNP
+ 03051313 4237   00   1    -0.81486347E-14    # coeffC10PmumuNP
  03051212 4141   00   0    -0.12182258E-07    # coeffCLnu1nu1SM
- 03051212 4141   00   2    -0.12184227E-07    # coeffCLnu1nu1
- 03051212 4241   00   2     0.16162761E-13    # coeffCLPnu1nu1
- 03051212 4141   00   1    -0.19690474E-11    # coeffCLnu1nu1NP
- 03051212 4241   00   1     0.16162761E-13    # coeffCLPnu1nu1NP
+ 03051212 4141   00   2    -0.12190270E-07    # coeffCLnu1nu1
+ 03051212 4241   00   2     0.16297257E-13    # coeffCLPnu1nu1
+ 03051212 4141   00   1    -0.80117864E-11    # coeffCLnu1nu1NP
+ 03051212 4241   00   1     0.16297257E-13    # coeffCLPnu1nu1NP
  03051414 4141   00   0    -0.12182142E-07    # coeffCLnu2nu2SM
- 03051414 4141   00   2    -0.12184108E-07    # coeffCLnu2nu2
- 03051414 4241   00   2     0.16162816E-13    # coeffCLPnu2nu2
- 03051414 4141   00   1    -0.19657211E-11    # coeffCLnu2nu2NP
- 03051414 4241   00   1     0.16162816E-13    # coeffCLPnu2nu2NP
+ 03051414 4141   00   2    -0.12190154E-07    # coeffCLnu2nu2
+ 03051414 4241   00   2     0.16297242E-13    # coeffCLPnu2nu2
+ 03051414 4141   00   1    -0.80117859E-11    # coeffCLnu2nu2NP
+ 03051414 4241   00   1     0.16297242E-13    # coeffCLPnu2nu2NP
  03051616 4141   00   0    -0.12157348E-07    # coeffCLnu3nu3SM
- 03051616 4141   00   2    -0.12159317E-07    # coeffCLnu3nu3
- 03051616 4241   00   2     0.16158876E-13    # coeffCLPnu3nu3
- 03051616 4141   00   1    -0.19690480E-11    # coeffCLnu3nu3NP
- 03051616 4241   00   1     0.16158876E-13    # coeffCLPnu3nu3NP
+ 03051616 4141   00   2    -0.12165360E-07    # coeffCLnu3nu3
+ 03051616 4241   00   2     0.16293371E-13    # coeffCLPnu3nu3
+ 03051616 4141   00   1    -0.80118106E-11    # coeffCLnu3nu3NP
+ 03051616 4241   00   1     0.16293371E-13    # coeffCLPnu3nu3NP
  03051212 4142   00   0     0.00000000E+00    # coeffCRnu1nu1SM
- 03051212 4142   00   2     0.12184227E-07    # coeffCRnu1nu1
- 03051212 4242   00   2    -0.16162761E-13    # coeffCRPnu1nu1
- 03051212 4142   00   1     0.12184227E-07    # coeffCRnu1nu1NP
- 03051212 4242   00   1    -0.16162761E-13    # coeffCRPnu1nu1NP
+ 03051212 4142   00   2     0.12190270E-07    # coeffCRnu1nu1
+ 03051212 4242   00   2    -0.16297257E-13    # coeffCRPnu1nu1
+ 03051212 4142   00   1     0.12190270E-07    # coeffCRnu1nu1NP
+ 03051212 4242   00   1    -0.16297257E-13    # coeffCRPnu1nu1NP
  03051414 4142   00   0     0.00000000E+00    # coeffCRnu2nu2SM
- 03051414 4142   00   2     0.12184118E-07    # coeffCRnu2nu2
- 03051414 4242   00   2    -0.16162816E-13    # coeffCRPnu2nu2
- 03051414 4142   00   1     0.12184118E-07    # coeffCRnu2nu2NP
- 03051414 4242   00   1    -0.16162816E-13    # coeffCRPnu2nu2NP
+ 03051414 4142   00   2     0.12190164E-07    # coeffCRnu2nu2
+ 03051414 4242   00   2    -0.16297242E-13    # coeffCRPnu2nu2
+ 03051414 4142   00   1     0.12190164E-07    # coeffCRnu2nu2NP
+ 03051414 4242   00   1    -0.16297242E-13    # coeffCRPnu2nu2NP
  03051616 4142   00   0     0.00000000E+00    # coeffCRnu3nu3SM
- 03051616 4142   00   2     0.12162078E-07    # coeffCRnu3nu3
- 03051616 4242   00   2    -0.16158876E-13    # coeffCRPnu3nu3
- 03051616 4142   00   1     0.12162078E-07    # coeffCRnu3nu3NP
- 03051616 4242   00   1    -0.16158876E-13    # coeffCRPnu3nu3NP
- 01030103 3131   00   2    -0.18585925E-23    # coeffKK_SLL
- 01030103 3232   00   2    -0.67093991E-21    # coeffKK_SRR
- 01030103 3132   00   2    -0.85722960E-20    # coeffKK_SLR
- 01030103 4141   00   2     0.96965898E-13    # coeffKK_VLL
- 01030103 4242   00   2     0.11950469E-28    # coeffKK_VRR
- 01030103 4142   00   2    -0.35312948E-22    # coeffKK_VLR
- 01030103 4343   00   2    -0.11962182E-31    # coeffKK_TLL
- 01030103 4444   00   2     0.11200851E-30    # coeffKK_TRR
- 01050105 3131   00   2    -0.54109455E-21    # coeffBB_SLL
- 01050105 3232   00   2    -0.94994655E-15    # coeffBB_SRR
- 01050105 3132   00   2    -0.76946964E-17    # coeffBB_SLR
- 01050105 4141   00   2     0.33476235E-11    # coeffBB_VLL
- 01050105 4242   00   2     0.76503360E-21    # coeffBB_VRR
- 01050105 4142   00   2    -0.96425493E-18    # coeffBB_VLR
- 01050105 4343   00   2    -0.11488028E-21    # coeffBB_TLL
- 01050105 4444   00   2     0.14484408E-20    # coeffBB_TRR
- 03050305 3131   00   2    -0.10214156E-16    # coeffBsBs_SLL
- 03050305 3232   00   2    -0.27750932E-13    # coeffBsBs_SRR
- 03050305 3132   00   2    -0.42720412E-14    # coeffBsBs_SLR
- 03050305 4141   00   2     0.97808384E-10    # coeffBsBs_VLL
- 03050305 4242   00   2    -0.33958825E-20    # coeffBsBs_VRR
- 03050305 4142   00   2    -0.53513179E-15    # coeffBsBs_VLR
- 03050305 4343   00   2    -0.23482271E-20    # coeffBsBs_TLL
- 03050305 4444   00   2     0.47381256E-19    # coeffBsBs_TRR
- 01030103 3131   00   1    -0.89791916E-29    # coeffKK_SLLNP
- 01030103 3232   00   1    -0.34495748E-26    # coeffKK_SRRNP
- 01030103 3132   00   1    -0.16110867E-26    # coeffKK_SLRNP
- 01030103 4141   00   1     0.14535495E-19    # coeffKK_VLLNP
- 01030103 4242   00   1    -0.77971953E-31    # coeffKK_VRRNP
- 01030103 4142   00   1    -0.18208440E-27    # coeffKK_VLRNP
- 01030103 4343   00   1    -0.11962182E-31    # coeffKK_TLLNP
- 01030103 4444   00   1     0.11200851E-30    # coeffKK_TRRNP
- 01050105 3131   00   1     0.43548318E-21    # coeffBB_SLLNP
- 01050105 3232   00   1    -0.49651290E-18    # coeffBB_SRRNP
- 01050105 3132   00   1     0.29631921E-20    # coeffBB_SLRNP
- 01050105 4141   00   1     0.15875467E-14    # coeffBB_VLLNP
- 01050105 4242   00   1     0.76474884E-21    # coeffBB_VRRNP
- 01050105 4142   00   1    -0.13365728E-20    # coeffBB_VLRNP
- 01050105 4343   00   1    -0.11488028E-21    # coeffBB_TLLNP
- 01050105 4444   00   1     0.14484408E-20    # coeffBB_TRRNP
- 03050305 3131   00   1     0.84618450E-19    # coeffBsBs_SLLNP
- 03050305 3232   00   1    -0.14440600E-16    # coeffBsBs_SRRNP
- 03050305 3132   00   1     0.18301367E-17    # coeffBsBs_SLRNP
- 03050305 4141   00   1     0.46408631E-13    # coeffBsBs_VLLNP
- 03050305 4242   00   1    -0.64006782E-20    # coeffBsBs_VRRNP
- 03050305 4142   00   1    -0.66769483E-18    # coeffBsBs_VLRNP
- 03050305 4343   00   1    -0.23482271E-20    # coeffBsBs_TLLNP
- 03050305 4444   00   1     0.47381256E-19    # coeffBsBs_TRRNP
+ 03051616 4142   00   2     0.12168121E-07    # coeffCRnu3nu3
+ 03051616 4242   00   2    -0.16293371E-13    # coeffCRPnu3nu3
+ 03051616 4142   00   1     0.12168121E-07    # coeffCRnu3nu3NP
+ 03051616 4242   00   1    -0.16293371E-13    # coeffCRPnu3nu3NP
+ 01030103 3131   00   2    -0.18586555E-23    # coeffKK_SLL
+ 01030103 3232   00   2    -0.67096263E-21    # coeffKK_SRR
+ 01030103 3132   00   2    -0.85723077E-20    # coeffKK_SLR
+ 01030103 4141   00   2     0.96965949E-13    # coeffKK_VLL
+ 01030103 4242   00   2     0.11825421E-28    # coeffKK_VRR
+ 01030103 4142   00   2    -0.35314126E-22    # coeffKK_VLR
+ 01030103 4343   00   2     0.17975286E-31    # coeffKK_TLL
+ 01030103 4444   00   2    -0.95516544E-31    # coeffKK_TRR
+ 01050105 3131   00   2    -0.10779369E-20    # coeffBB_SLL
+ 01050105 3232   00   2    -0.95332486E-15    # coeffBB_SRR
+ 01050105 3132   00   2    -0.77141902E-17    # coeffBB_SLR
+ 01050105 4141   00   2     0.33532703E-11    # coeffBB_VLL
+ 01050105 4242   00   2    -0.78481716E-21    # coeffBB_VRR
+ 01050105 4142   00   2    -0.95986951E-18    # coeffBB_VLR
+ 01050105 4343   00   2     0.10824050E-21    # coeffBB_TLL
+ 01050105 4444   00   2    -0.13229529E-20    # coeffBB_TRR
+ 03050305 3131   00   2    -0.10300464E-16    # coeffBsBs_SLL
+ 03050305 3232   00   2    -0.27849674E-13    # coeffBsBs_SRR
+ 03050305 3132   00   2    -0.42831568E-14    # coeffBsBs_SLR
+ 03050305 4141   00   2     0.97973458E-10    # coeffBsBs_VLL
+ 03050305 4242   00   2    -0.37712094E-19    # coeffBsBs_VRR
+ 03050305 4142   00   2    -0.53284232E-15    # coeffBsBs_VLR
+ 03050305 4343   00   2     0.40829866E-20    # coeffBsBs_TLL
+ 03050305 4444   00   2    -0.41441991E-19    # coeffBsBs_TRR
+ 01030103 3131   00   1    -0.71997782E-28    # coeffKK_SLLNP
+ 01030103 3232   00   1    -0.26170883E-25    # coeffKK_SRRNP
+ 01030103 3132   00   1    -0.13315766E-25    # coeffKK_SLRNP
+ 01030103 4141   00   1     0.66211296E-19    # coeffKK_VLLNP
+ 01030103 4242   00   1    -0.20301942E-30    # coeffKK_VRRNP
+ 01030103 4142   00   1    -0.13594770E-26    # coeffKK_VLRNP
+ 01030103 4343   00   1     0.17975286E-31    # coeffKK_TLLNP
+ 01030103 4444   00   1    -0.95516544E-31    # coeffKK_TRRNP
+ 01050105 3131   00   1    -0.10135920E-21    # coeffBB_SLLNP
+ 01050105 3232   00   1    -0.38748256E-17    # coeffBB_SRRNP
+ 01050105 3132   00   1    -0.16530602E-19    # coeffBB_SLRNP
+ 01050105 4141   00   1     0.72344236E-14    # coeffBB_VLLNP
+ 01050105 4242   00   1    -0.78510191E-21    # coeffBB_VRRNP
+ 01050105 4142   00   1     0.30488539E-20    # coeffBB_VLRNP
+ 01050105 4343   00   1     0.10824050E-21    # coeffBB_TLLNP
+ 01050105 4444   00   1    -0.13229529E-20    # coeffBB_TRRNP
+ 03050305 3131   00   1    -0.16900056E-20    # coeffBsBs_SLLNP
+ 03050305 3232   00   1    -0.11318213E-15    # coeffBsBs_SRRNP
+ 03050305 3132   00   1    -0.92855150E-17    # coeffBsBs_SLRNP
+ 03050305 4141   00   1     0.21148349E-12    # coeffBsBs_VLLNP
+ 03050305 4242   00   1    -0.40716890E-19    # coeffBsBs_VRRNP
+ 03050305 4142   00   1     0.16217754E-17    # coeffBsBs_VLRNP
+ 03050305 4343   00   1     0.40829866E-20    # coeffBsBs_TLLNP
+ 03050305 4444   00   1    -0.41441991E-19    # coeffBsBs_TRRNP
  01030103 3131   00   0    -0.18585835E-23    # coeffKK_SLLSM
  01030103 3232   00   0    -0.67093646E-21    # coeffKK_SRRSM
  01030103 3132   00   0    -0.85722944E-20    # coeffKK_SLRSM
@@ -572,113 +572,113 @@ Block FWCOEF Q=  1.60000000E+02  # Wilson coefficients at scale Q
  03050305 4444   00   0    -0.34727931E-46    # coeffBsBs_TRRSM
 Block IMFWCOEF Q=  1.60000000E+02  # Im(Wilson coefficients) at scale Q 
      0305 4422   00   0     0.64264752E-10    # coeffC7sm
-     0305 4422   00   2     0.64301095E-10    # coeffC7
-     0305 4322   00   2     0.23234024E-11    # coeffC7p
-     0305 4422   00   1     0.36342687E-13    # coeffC7NP
-     0305 4322   00   1     0.23234024E-11    # coeffC7pNP
+     0305 4422   00   2     0.64413754E-10    # coeffC7
+     0305 4322   00   2     0.23279931E-11    # coeffC7p
+     0305 4422   00   1     0.14900180E-12    # coeffC7NP
+     0305 4322   00   1     0.23279931E-11    # coeffC7pNP
      0305 6421   00   0     0.74444241E-10    # coeffC8sm
-     0305 6421   00   2     0.74487610E-10    # coeffC8
-     0305 6321   00   2     0.14364666E-11    # coeffC8p
-     0305 6421   00   1     0.43368965E-13    # coeffC8NP
-     0305 6321   00   1     0.14364666E-11    # coeffC8pNP
+     0305 6421   00   2     0.74593127E-10    # coeffC8
+     0305 6321   00   2     0.14406944E-11    # coeffC8p
+     0305 6421   00   1     0.14888527E-12    # coeffC8NP
+     0305 6321   00   1     0.14406944E-11    # coeffC8pNP
  03051111 4133   00   0    -0.18499673E-10    # coeffC9eeSM
- 03051111 4133   00   2    -0.18501387E-10    # coeffC9ee
- 03051111 4233   00   2     0.14313640E-16    # coeffC9Pee
- 03051111 4133   00   1    -0.17141018E-14    # coeffC9eeNP
- 03051111 4233   00   1     0.14313640E-16    # coeffC9PeeNP
+ 03051111 4133   00   2    -0.18506761E-10    # coeffC9ee
+ 03051111 4233   00   2     0.14431002E-16    # coeffC9Pee
+ 03051111 4133   00   1    -0.70876570E-14    # coeffC9eeNP
+ 03051111 4233   00   1     0.14431002E-16    # coeffC9PeeNP
  03051111 4137   00   0     0.70361763E-10    # coeffC10eeSM
- 03051111 4137   00   2     0.70379360E-10    # coeffC10ee
- 03051111 4237   00   2     0.14434229E-15    # coeffC10Pee
- 03051111 4137   00   1     0.17597653E-13    # coeffC10eeNP
- 03051111 4237   00   1     0.14434229E-15    # coeffC10PeeNP
+ 03051111 4137   00   2     0.70433252E-10    # coeffC10ee
+ 03051111 4237   00   2     0.14554401E-15    # coeffC10Pee
+ 03051111 4137   00   1     0.71489213E-13    # coeffC10eeNP
+ 03051111 4237   00   1     0.14554401E-15    # coeffC10PeeNP
  03051313 4133   00   0    -0.18499664E-10    # coeffC9mumuSM
- 03051313 4133   00   2    -0.18501405E-10    # coeffC9mumu
- 03051313 4233   00   2     0.14340671E-16    # coeffC9Pmumu
- 03051313 4133   00   1    -0.17408901E-14    # coeffC9mumuNP
- 03051313 4233   00   1     0.14340671E-16    # coeffC9PmumuNP
+ 03051313 4133   00   2    -0.18506753E-10    # coeffC9mumu
+ 03051313 4233   00   2     0.14430791E-16    # coeffC9Pmumu
+ 03051313 4133   00   1    -0.70882472E-14    # coeffC9mumuNP
+ 03051313 4233   00   1     0.14430791E-16    # coeffC9PmumuNP
  03051313 4137   00   0     0.70361772E-10    # coeffC10mumuSM
- 03051313 4137   00   2     0.70379343E-10    # coeffC10mumu
- 03051313 4237   00   2     0.14434304E-15    # coeffC10Pmumu
- 03051313 4137   00   1     0.17570802E-13    # coeffC10mumuNP
- 03051313 4237   00   1     0.14434304E-15    # coeffC10PmumuNP
+ 03051313 4137   00   2     0.70433260E-10    # coeffC10mumu
+ 03051313 4237   00   2     0.14554415E-15    # coeffC10Pmumu
+ 03051313 4137   00   1     0.71488762E-13    # coeffC10mumuNP
+ 03051313 4237   00   1     0.14554415E-15    # coeffC10PmumuNP
  03051212 4141   00   0     0.21747229E-09    # coeffCLnu1nu1SM
- 03051212 4141   00   2     0.21750743E-09    # coeffCLnu1nu1
- 03051212 4241   00   2    -0.28868787E-15    # coeffCLPnu1nu1
- 03051212 4141   00   1     0.35139347E-13    # coeffCLnu1nu1NP
- 03051212 4241   00   1    -0.28868787E-15    # coeffCLPnu1nu1NP
+ 03051212 4141   00   2     0.21761527E-09    # coeffCLnu1nu1
+ 03051212 4241   00   2    -0.29108807E-15    # coeffCLPnu1nu1
+ 03051212 4141   00   1     0.14297723E-12    # coeffCLnu1nu1NP
+ 03051212 4241   00   1    -0.29108807E-15    # coeffCLPnu1nu1NP
  03051414 4141   00   0     0.21746929E-09    # coeffCLnu2nu2SM
- 03051414 4141   00   2     0.21750437E-09    # coeffCLnu2nu2
- 03051414 4241   00   2    -0.28868887E-15    # coeffCLPnu2nu2
- 03051414 4141   00   1     0.35079985E-13    # coeffCLnu2nu2NP
- 03051414 4241   00   1    -0.28868887E-15    # coeffCLPnu2nu2NP
+ 03051414 4141   00   2     0.21761227E-09    # coeffCLnu2nu2
+ 03051414 4241   00   2    -0.29108781E-15    # coeffCLPnu2nu2
+ 03051414 4141   00   1     0.14297722E-12    # coeffCLnu2nu2NP
+ 03051414 4241   00   1    -0.29108781E-15    # coeffCLPnu2nu2NP
  03051616 4141   00   0     0.21700445E-09    # coeffCLnu3nu3SM
- 03051616 4141   00   2     0.21703959E-09    # coeffCLnu3nu3
- 03051616 4241   00   2    -0.28861851E-15    # coeffCLPnu3nu3
- 03051616 4141   00   1     0.35139358E-13    # coeffCLnu3nu3NP
- 03051616 4241   00   1    -0.28861851E-15    # coeffCLPnu3nu3NP
+ 03051616 4141   00   2     0.21714743E-09    # coeffCLnu3nu3
+ 03051616 4241   00   2    -0.29101868E-15    # coeffCLPnu3nu3
+ 03051616 4141   00   1     0.14297766E-12    # coeffCLnu3nu3NP
+ 03051616 4241   00   1    -0.29101868E-15    # coeffCLPnu3nu3NP
  03051212 4142   00   0     0.00000000E+00    # coeffCRnu1nu1SM
- 03051212 4142   00   2    -0.21750743E-09    # coeffCRnu1nu1
- 03051212 4242   00   2     0.28868787E-15    # coeffCRPnu1nu1
- 03051212 4142   00   1    -0.21750743E-09    # coeffCRnu1nu1NP
- 03051212 4242   00   1     0.28868787E-15    # coeffCRPnu1nu1NP
+ 03051212 4142   00   2    -0.21761527E-09    # coeffCRnu1nu1
+ 03051212 4242   00   2     0.29108807E-15    # coeffCRPnu1nu1
+ 03051212 4142   00   1    -0.21761527E-09    # coeffCRnu1nu1NP
+ 03051212 4242   00   1     0.29108807E-15    # coeffCRPnu1nu1NP
  03051414 4142   00   0     0.00000000E+00    # coeffCRnu2nu2SM
- 03051414 4142   00   2    -0.21750455E-09    # coeffCRnu2nu2
- 03051414 4242   00   2     0.28868887E-15    # coeffCRPnu2nu2
- 03051414 4142   00   1    -0.21750455E-09    # coeffCRnu2nu2NP
- 03051414 4242   00   1     0.28868887E-15    # coeffCRPnu2nu2NP
+ 03051414 4142   00   2    -0.21761244E-09    # coeffCRnu2nu2
+ 03051414 4242   00   2     0.29108781E-15    # coeffCRPnu2nu2
+ 03051414 4142   00   1    -0.21761244E-09    # coeffCRnu2nu2NP
+ 03051414 4242   00   1     0.29108781E-15    # coeffCRPnu2nu2NP
  03051616 4142   00   0     0.00000000E+00    # coeffCRnu3nu3SM
- 03051616 4142   00   2    -0.21708890E-09    # coeffCRnu3nu3
- 03051616 4242   00   2     0.28861851E-15    # coeffCRPnu3nu3
- 03051616 4142   00   1    -0.21708890E-09    # coeffCRnu3nu3NP
- 03051616 4242   00   1     0.28861851E-15    # coeffCRPnu3nu3NP
- 01030103 3131   00   2    -0.16120452E-23    # coeffKK_SLL
- 01030103 3232   00   2    -0.58193794E-21    # coeffKK_SRR
- 01030103 3132   00   2    -0.31013355E-21    # coeffKK_SLR
- 01030103 4141   00   2     0.61821400E-14    # coeffKK_VLL
- 01030103 4242   00   2     0.19197557E-30    # coeffKK_VRR
- 01030103 4142   00   2    -0.30628592E-22    # coeffKK_VLR
- 01030103 4343   00   2    -0.11613112E-31    # coeffKK_TLL
- 01030103 4444   00   2     0.10873997E-30    # coeffKK_TRR
- 01050105 3131   00   2    -0.48913988E-21    # coeffBB_SLL
- 01050105 3232   00   2    -0.85865306E-15    # coeffBB_SRR
- 01050105 3132   00   2    -0.69597628E-17    # coeffBB_SLR
- 01050105 4141   00   2     0.30267897E-11    # coeffBB_VLL
- 01050105 4242   00   2     0.69142956E-21    # coeffBB_VRR
- 01050105 4142   00   2    -0.87158629E-18    # coeffBB_VLR
- 01050105 4343   00   2    -0.10382757E-21    # coeffBB_TLL
- 01050105 4444   00   2     0.13090853E-20    # coeffBB_TRR
- 03050305 3131   00   2     0.36470493E-18    # coeffBsBs_SLL
- 03050305 3232   00   2     0.99086947E-15    # coeffBsBs_SRR
- 03050305 3132   00   2     0.15260099E-15    # coeffBsBs_SLR
- 03050305 4141   00   2    -0.34929854E-11    # coeffBsBs_VLL
- 03050305 4242   00   2     0.12114487E-21    # coeffBsBs_VRR
- 03050305 4142   00   2     0.19107312E-16    # coeffBsBs_VLR
- 03050305 4343   00   2     0.83838969E-22    # coeffBsBs_TLL
- 03050305 4444   00   2    -0.16916574E-20    # coeffBsBs_TRR
- 01030103 3131   00   1    -0.87170537E-29    # coeffKK_SLLNP
- 01030103 3232   00   1    -0.33489881E-26    # coeffKK_SRRNP
- 01030103 3132   00   1    -0.15642808E-26    # coeffKK_SLRNP
- 01030103 4141   00   1     0.14111200E-19    # coeffKK_VLLNP
- 01030103 4242   00   1    -0.75696637E-31    # coeffKK_VRRNP
- 01030103 4142   00   1    -0.17677191E-27    # coeffKK_VLRNP
- 01030103 4343   00   1    -0.11613112E-31    # coeffKK_TLLNP
- 01030103 4444   00   1     0.10873997E-30    # coeffKK_TRRNP
- 01050105 3131   00   1     0.39358506E-21    # coeffBB_SLLNP
- 01050105 3232   00   1    -0.44875379E-18    # coeffBB_SRRNP
- 01050105 3132   00   1     0.26780603E-20    # coeffBB_SLRNP
- 01050105 4141   00   1     0.14347885E-14    # coeffBB_VLLNP
- 01050105 4242   00   1     0.69117184E-21    # coeffBB_VRRNP
- 01050105 4142   00   1    -0.12080105E-20    # coeffBB_VLRNP
- 01050105 4343   00   1    -0.10382757E-21    # coeffBB_TLLNP
- 01050105 4444   00   1     0.13090853E-20    # coeffBB_TRRNP
- 03050305 3131   00   1    -0.30211437E-20    # coeffBsBs_SLLNP
- 03050305 3232   00   1     0.51558203E-18    # coeffBsBs_SRRNP
- 03050305 3132   00   1    -0.65340960E-19    # coeffBsBs_SLRNP
- 03050305 4141   00   1    -0.16569173E-14    # coeffBsBs_VLLNP
- 03050305 4242   00   1     0.22852399E-21    # coeffBsBs_VRRNP
- 03050305 4142   00   1     0.23839198E-19    # coeffBsBs_VLRNP
- 03050305 4343   00   1     0.83838969E-22    # coeffBsBs_TLLNP
- 03050305 4444   00   1    -0.16916574E-20    # coeffBsBs_TRRNP
+ 03051616 4142   00   2    -0.21719674E-09    # coeffCRnu3nu3
+ 03051616 4242   00   2     0.29101868E-15    # coeffCRPnu3nu3
+ 03051616 4142   00   1    -0.21719674E-09    # coeffCRnu3nu3NP
+ 03051616 4242   00   1     0.29101868E-15    # coeffCRPnu3nu3NP
+ 01030103 3131   00   2    -0.16121064E-23    # coeffKK_SLL
+ 01030103 3232   00   2    -0.58196000E-21    # coeffKK_SRR
+ 01030103 3132   00   2    -0.31014492E-21    # coeffKK_SLR
+ 01030103 4141   00   2     0.61821902E-14    # coeffKK_VLL
+ 01030103 4242   00   2     0.70577134E-31    # coeffKK_VRR
+ 01030103 4142   00   2    -0.30629735E-22    # coeffKK_VLR
+ 01030103 4343   00   2     0.17450747E-31    # coeffKK_TLL
+ 01030103 4444   00   2    -0.92729263E-31    # coeffKK_TRR
+ 01050105 3131   00   2    -0.97433221E-21    # coeffBB_SLL
+ 01050105 3232   00   2    -0.86170644E-15    # coeffBB_SRR
+ 01050105 3132   00   2    -0.69773814E-17    # coeffBB_SLR
+ 01050105 4141   00   2     0.30318933E-11    # coeffBB_VLL
+ 01050105 4242   00   2    -0.70930900E-21    # coeffBB_VRR
+ 01050105 4142   00   2    -0.86762291E-18    # coeffBB_VLR
+ 01050105 4343   00   2     0.97826606E-22    # coeffBB_TLL
+ 01050105 4444   00   2    -0.11956707E-20    # coeffBB_TRR
+ 03050305 3131   00   2     0.36778638E-18    # coeffBsBs_SLL
+ 03050305 3232   00   2     0.99439492E-15    # coeffBsBs_SRR
+ 03050305 3132   00   2     0.15299786E-15    # coeffBsBs_SLR
+ 03050305 4141   00   2    -0.34988791E-11    # coeffBsBs_VLL
+ 03050305 4242   00   2     0.13463398E-20    # coeffBsBs_VRR
+ 03050305 4142   00   2     0.19025573E-16    # coeffBsBs_VLR
+ 03050305 4343   00   2    -0.14577525E-21    # coeffBsBs_TLL
+ 03050305 4444   00   2     0.14796073E-20    # coeffBsBs_TRR
+ 01030103 3131   00   1    -0.69895958E-28    # coeffKK_SLLNP
+ 01030103 3232   00   1    -0.25407949E-25    # coeffKK_SRRNP
+ 01030103 3132   00   1    -0.12929287E-25    # coeffKK_SLRNP
+ 01030103 4141   00   1     0.64278341E-19    # coeffKK_VLLNP
+ 01030103 4242   00   1    -0.19709507E-30    # coeffKK_VRRNP
+ 01030103 4142   00   1    -0.13198181E-26    # coeffKK_VLRNP
+ 01030103 4343   00   1     0.17450747E-31    # coeffKK_TLLNP
+ 01030103 4444   00   1    -0.92729263E-31    # coeffKK_TRRNP
+ 01050105 3131   00   1    -0.91607274E-22    # coeffBB_SLLNP
+ 01050105 3232   00   1    -0.35021332E-17    # coeffBB_SRRNP
+ 01050105 3132   00   1    -0.14940610E-19    # coeffBB_SLRNP
+ 01050105 4141   00   1     0.65383068E-14    # coeffBB_VLLNP
+ 01050105 4242   00   1    -0.70956672E-21    # coeffBB_VRRNP
+ 01050105 4142   00   1     0.27553707E-20    # coeffBB_VLRNP
+ 01050105 4343   00   1     0.97826606E-22    # coeffBB_TLLNP
+ 01050105 4444   00   1    -0.11956707E-20    # coeffBB_TRRNP
+ 03050305 3131   00   1     0.60312581E-22    # coeffBsBs_SLLNP
+ 03050305 3232   00   1     0.40410316E-17    # coeffBsBs_SRRNP
+ 03050305 3132   00   1     0.33152765E-18    # coeffBsBs_SLRNP
+ 03050305 4141   00   1    -0.75505493E-14    # coeffBsBs_VLLNP
+ 03050305 4242   00   1     0.14537189E-20    # coeffBsBs_VRRNP
+ 03050305 4142   00   1    -0.57900267E-19    # coeffBsBs_VLRNP
+ 03050305 4343   00   1    -0.14577525E-21    # coeffBsBs_TLLNP
+ 03050305 4444   00   1     0.14796073E-20    # coeffBsBs_TRRNP
  01030103 3131   00   0    -0.16120365E-23    # coeffKK_SLLSM
  01030103 3232   00   0    -0.58193459E-21    # coeffKK_SRRSM
  01030103 3132   00   0    -0.31013199E-21    # coeffKK_SLRSM
@@ -709,44 +709,41 @@ DECAY         4     3.80362928E-13   # Fu_2
      6.06541369E-01    3            2         -1          3   # BR(Fu_2 -> Fu_1 Fd_1^* Fd_2 )
      2.02203053E-01    3            3        -11         12   # BR(Fu_2 -> Fd_2 Fe_1^* Fv_1 )
      1.91255578E-01    3            3        -13         14   # BR(Fu_2 -> Fd_2 Fe_2^* Fv_2 )
-DECAY         6     1.55565288E+00   # Fu_3
+DECAY         6     1.55565293E+00   # Fu_3
 #    BR                NDA      ID1      ID2
-     9.99999995E-01    2            5        -24   # BR(Fu_3 -> Fd_3 VWp^* )
+     9.99999965E-01    2            5        -24   # BR(Fu_3 -> Fd_3 VWp^* )
 #    BR                NDA      ID1      ID2       ID3
-     5.35049886E-13    3            5        -11         12   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_1 )
-     4.96572324E-09    3            5        -11         14   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_2 )
-     8.36968351E-13    3            5        -11         16   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_3 )
-     5.45643817E-13    3            5        -13         12   # BR(Fu_3 -> Fd_3 Fe_2^* Fv_1 )
-     5.35048306E-13    3            5        -13         14   # BR(Fu_3 -> Fd_3 Fe_2^* Fv_2 )
-     5.34337552E-13    3            5        -13         16   # BR(Fu_3 -> Fd_3 Fe_2^* Fv_3 )
-     3.35466271E-13    3            5        -15         12   # BR(Fu_3 -> Fd_3 Fe_3^* Fv_1 )
-     1.73729763E-15    3            5        -15         14   # BR(Fu_3 -> Fd_3 Fe_3^* Fv_2 )
-DECAY        13     2.93478931E-16   # Fe_2
-#    BR                NDA      ID1      ID2
-#    BR                NDA      ID1      ID2       ID3
-     5.18949737E-15    3           11        -11         11   # BR(Fe_2 -> Fe_1 Fe_1^* Fe_1 )
-     9.96795313E-01    3           11         12         14   # BR(Fe_2 -> Fe_1 Fv_1 Fv_2 )
-     4.33407782E-13    3           11         12         16   # BR(Fe_2 -> Fe_1 Fv_1 Fv_3 )
-     2.20632978E-15    3           11         14         14   # BR(Fe_2 -> Fe_1 Fv_2 Fv_2 )
-     4.12046159E-14    3           11         16         16   # BR(Fe_2 -> Fe_1 Fv_3 Fv_3 )
-     3.20468666E-03    3           14         -2          1   # BR(Fe_2 -> Fv_2 Fu_1^* Fd_1 )
-DECAY        15     2.15796014E-12   # Fe_3
+     1.58223633E-09    3            5        -11         12   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_1 )
+     2.28628316E-09    3            5        -11         14   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_2 )
+     1.44310530E-08    3            5        -11         16   # BR(Fu_3 -> Fd_3 Fe_1^* Fv_3 )
+     1.81084302E-09    3            5        -13         12   # BR(Fu_3 -> Fd_3 Fe_2^* Fv_1 )
+     1.16814732E-10    3            5        -13         16   # BR(Fu_3 -> Fd_3 Fe_2^* Fv_3 )
+     1.44686473E-08    3            5        -15         12   # BR(Fu_3 -> Fd_3 Fe_3^* Fv_1 )
+     1.16979362E-10    3            5        -15         14   # BR(Fu_3 -> Fd_3 Fe_3^* Fv_2 )
+DECAY        13     1.26152611E-18   # Fe_2
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
-     4.57230836E-13    3           11        -11         13   # BR(Fe_3 -> Fe_1 Fe_1^* Fe_2 )
-     4.57159469E-13    3           11        -13         11   # BR(Fe_3 -> Fe_1 Fe_2^* Fe_1 )
-     4.44452671E-13    3           11        -13         13   # BR(Fe_3 -> Fe_1 Fe_2^* Fe_2 )
-     4.44863379E-13    3           13        -11         13   # BR(Fe_3 -> Fe_2 Fe_1^* Fe_2 )
-     7.93098466E-11    3           11         12         14   # BR(Fe_3 -> Fe_1 Fv_1 Fv_2 )
-     1.99547977E-01    3           11         12         16   # BR(Fe_3 -> Fe_1 Fv_1 Fv_3 )
-     4.11184073E-13    3           11         14         14   # BR(Fe_3 -> Fe_1 Fv_2 Fv_2 )
-     7.39097825E-12    3           11         14         16   # BR(Fe_3 -> Fe_1 Fv_2 Fv_3 )
-     8.55522496E-11    3           13         12         12   # BR(Fe_3 -> Fe_2 Fv_1 Fv_1 )
-     3.98142237E-13    3           13         12         14   # BR(Fe_3 -> Fe_2 Fv_1 Fv_2 )
-     7.18830794E-12    3           13         12         16   # BR(Fe_3 -> Fe_2 Fv_1 Fv_3 )
-     1.94254221E-01    3           13         14         16   # BR(Fe_3 -> Fe_2 Fv_2 Fv_3 )
-     5.98610813E-01    3           16         -2          1   # BR(Fe_3 -> Fv_3 Fu_1^* Fd_1 )
-     7.58698974E-03    3           16         -4          3   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_2 )
+     1.61643491E-14    3           11        -11         11   # BR(Fe_2 -> Fe_1 Fe_1^* Fe_1 )
+     1.53654121E-12    3           11         12         12   # BR(Fe_2 -> Fe_1 Fv_1 Fv_1 )
+     2.53944317E-01    3           11         12         14   # BR(Fe_2 -> Fe_1 Fv_1 Fv_2 )
+     4.87970396E-04    3           11         12         16   # BR(Fe_2 -> Fe_1 Fv_1 Fv_3 )
+     3.94508963E-06    3           11         14         16   # BR(Fe_2 -> Fe_1 Fv_2 Fv_3 )
+     3.18249693E-05    3           11         16         16   # BR(Fe_2 -> Fe_1 Fv_3 Fv_3 )
+     7.45531943E-01    3           14         -2          1   # BR(Fe_2 -> Fv_2 Fu_1^* Fd_1 )
+DECAY        15     2.16641616E-12   # Fe_3
+#    BR                NDA      ID1      ID2
+#    BR                NDA      ID1      ID2       ID3
+     9.61316537E-12    3           11         12         12   # BR(Fe_3 -> Fe_1 Fv_1 Fv_1 )
+     3.82115632E-04    3           11         12         14   # BR(Fe_3 -> Fe_1 Fv_1 Fv_2 )
+     2.01822176E-01    3           11         12         16   # BR(Fe_3 -> Fe_1 Fv_1 Fv_3 )
+     3.09104870E-06    3           11         14         14   # BR(Fe_3 -> Fe_1 Fv_2 Fv_2 )
+     2.46831062E-05    3           11         14         16   # BR(Fe_3 -> Fe_1 Fv_2 Fv_3 )
+     4.13056732E-04    3           13         12         12   # BR(Fe_3 -> Fe_2 Fv_1 Fv_1 )
+     3.00444077E-06    3           13         12         14   # BR(Fe_3 -> Fe_2 Fv_1 Fv_2 )
+     2.40053100E-05    3           13         12         16   # BR(Fe_3 -> Fe_2 Fv_1 Fv_3 )
+     1.93496195E-01    3           13         14         16   # BR(Fe_3 -> Fe_2 Fv_2 Fv_3 )
+     5.96274296E-01    3           16         -2          1   # BR(Fe_3 -> Fv_3 Fu_1^* Fd_1 )
+     7.55737596E-03    3           16         -4          3   # BR(Fe_3 -> Fv_3 Fu_2^* Fd_2 )
 DECAY         1     9.90594849E-27   # Fd_1
 #    BR                NDA      ID1      ID2
 #    BR                NDA      ID1      ID2       ID3
@@ -771,89 +768,89 @@ DECAY        24     2.10677198E+00   # VWp
      1.11134160E-01    2           12         11   # BR(VWp -> Fv_1 Fe_1 )
      1.11133871E-01    2           14         13   # BR(VWp -> Fv_2 Fe_2 )
      1.11052653E-01    2           16         15   # BR(VWp -> Fv_3 Fe_3 )
-DECAY        25     3.86937464E-03   # hh_1
+DECAY        25     3.86937444E-03   # hh_1
 #    BR                NDA      ID1      ID2
-     2.68525491E-03    2           22         22   # BR(hh_1 -> VP VP )
-     8.78244406E-02    2           21         21   # BR(hh_1 -> VG VG )
-     2.34654046E-02    2           23         23   # BR(hh_1 -> VZ VZ )
-     2.17164984E-01    2          -24         24   # BR(hh_1 -> VWp^* VWp_virt )
-     5.96595466E-07    2           -1          1   # BR(hh_1 -> Fd_1^* Fd_1 )
-     2.14590096E-04    2           -3          3   # BR(hh_1 -> Fd_2^* Fd_2 )
-     5.74610954E-01    2           -5          5   # BR(hh_1 -> Fd_3^* Fd_3 )
-     4.82819086E-09    2          -11         11   # BR(hh_1 -> Fe_1^* Fe_1 )
-     2.74061647E-08    2          -11         13   # BR(hh_1 -> Fe_1^* Fe_2 )
-     2.95209407E-12    2          -11         15   # BR(hh_1 -> Fe_1^* Fe_3 )
-     2.74061647E-08    2          -13         11   # BR(hh_1 -> Fe_2^* Fe_1 )
-     2.30962421E-04    2          -13         13   # BR(hh_1 -> Fe_2^* Fe_2 )
-     2.95193590E-12    2          -13         15   # BR(hh_1 -> Fe_2^* Fe_3 )
-     2.95209407E-12    2          -15         11   # BR(hh_1 -> Fe_3^* Fe_1 )
-     2.95193590E-12    2          -15         13   # BR(hh_1 -> Fe_3^* Fe_2 )
-     6.66888588E-02    2          -15         15   # BR(hh_1 -> Fe_3^* Fe_3 )
-     1.14146942E-07    2           -2          2   # BR(hh_1 -> Fu_1^* Fu_1 )
-     2.71137806E-02    2           -4          4   # BR(hh_1 -> Fu_2^* Fu_2 )
-DECAY        35     4.24876136E+01   # hh_2
+     2.68518082E-03    2           22         22   # BR(hh_1 -> VP VP )
+     8.78244453E-02    2           21         21   # BR(hh_1 -> VG VG )
+     2.34654058E-02    2           23         23   # BR(hh_1 -> VZ VZ )
+     2.17164995E-01    2          -24         24   # BR(hh_1 -> VWp^* VWp_virt )
+     5.96595498E-07    2           -1          1   # BR(hh_1 -> Fd_1^* Fd_1 )
+     2.14590108E-04    2           -3          3   # BR(hh_1 -> Fd_2^* Fd_2 )
+     5.74610984E-01    2           -5          5   # BR(hh_1 -> Fd_3^* Fd_3 )
+     6.76616984E-09    2          -11         11   # BR(hh_1 -> Fe_1^* Fe_1 )
+     2.03166817E-11    2          -11         13   # BR(hh_1 -> Fe_1^* Fe_2 )
+     7.34291312E-13    2          -11         15   # BR(hh_1 -> Fe_1^* Fe_3 )
+     2.03166817E-11    2          -13         11   # BR(hh_1 -> Fe_2^* Fe_1 )
+     2.31036307E-04    2          -13         13   # BR(hh_1 -> Fe_2^* Fe_2 )
+     1.46587647E-15    2          -13         15   # BR(hh_1 -> Fe_2^* Fe_3 )
+     7.34291312E-13    2          -15         11   # BR(hh_1 -> Fe_3^* Fe_1 )
+     1.46587647E-15    2          -15         13   # BR(hh_1 -> Fe_3^* Fe_2 )
+     6.66888623E-02    2          -15         15   # BR(hh_1 -> Fe_3^* Fe_3 )
+     1.14146948E-07    2           -2          2   # BR(hh_1 -> Fu_1^* Fu_1 )
+     2.71137820E-02    2           -4          4   # BR(hh_1 -> Fu_2^* Fu_2 )
+DECAY        35     2.62731080E+02   # hh_2
 #    BR                NDA      ID1      ID2
-     5.19204762E-06    2           22         22   # BR(hh_2 -> VP VP )
-     1.50370282E-03    2           21         21   # BR(hh_2 -> VG VG )
-     7.22558782E-04    2           -5          5   # BR(hh_2 -> Fd_3^* Fd_3 )
-     3.76932791E-07    2          -11         11   # BR(hh_2 -> Fe_1^* Fe_1 )
-     1.74903932E-03    2          -11         13   # BR(hh_2 -> Fe_1^* Fe_2 )
-     1.88474308E-07    2          -11         15   # BR(hh_2 -> Fe_1^* Fe_3 )
-     1.74903932E-03    2          -13         11   # BR(hh_2 -> Fe_2^* Fe_1 )
-     3.76976102E-07    2          -13         13   # BR(hh_2 -> Fe_2^* Fe_2 )
-     1.88464476E-07    2          -13         15   # BR(hh_2 -> Fe_2^* Fe_3 )
-     1.88474308E-07    2          -15         11   # BR(hh_2 -> Fe_3^* Fe_1 )
-     1.88464476E-07    2          -15         13   # BR(hh_2 -> Fe_3^* Fe_2 )
-     3.63616604E-13    2          -15         15   # BR(hh_2 -> Fe_3^* Fe_3 )
-     1.36820646E-15    2           -2          4   # BR(hh_2 -> Fu_1^* Fu_2 )
-     5.12312387E-06    2           -2          6   # BR(hh_2 -> Fu_1^* Fu_3 )
-     1.36822484E-15    2           -4          2   # BR(hh_2 -> Fu_2^* Fu_1 )
-     8.76344769E-14    2           -4          4   # BR(hh_2 -> Fu_2^* Fu_2 )
-     7.40753727E-04    2           -4          6   # BR(hh_2 -> Fu_2^* Fu_3 )
-     5.56764831E-06    2           -6          2   # BR(hh_2 -> Fu_3^* Fu_1 )
-     8.05016806E-04    2           -6          4   # BR(hh_2 -> Fu_3^* Fu_2 )
-     9.92711970E-01    2           -6          6   # BR(hh_2 -> Fu_3^* Fu_3 )
-     4.70799005E-07    2           25         25   # BR(hh_2 -> hh_1 hh_1 )
-     3.88946562E-08    2           24        -24   # BR(hh_2 -> VWp VWp^* )
-     1.91653961E-08    2           23         23   # BR(hh_2 -> VZ VZ )
-DECAY        37     1.26572665E-01   # Hm_2
+     8.39630860E-07    2           22         22   # BR(hh_2 -> VP VP )
+     2.43171628E-04    2           21         21   # BR(hh_2 -> VG VG )
+     1.16848750E-04    2           -5          5   # BR(hh_2 -> Fd_3^* Fd_3 )
+     1.10369418E-06    2          -11         11   # BR(hh_2 -> Fe_1^* Fe_1 )
+     2.09679005E-07    2          -11         13   # BR(hh_2 -> Fe_1^* Fe_2 )
+     7.58125698E-09    2          -11         15   # BR(hh_2 -> Fe_1^* Fe_3 )
+     2.09679005E-07    2          -13         11   # BR(hh_2 -> Fe_2^* Fe_1 )
+     1.51346119E-11    2          -13         15   # BR(hh_2 -> Fe_2^* Fe_3 )
+     7.58125698E-09    2          -15         11   # BR(hh_2 -> Fe_3^* Fe_1 )
+     1.51346119E-11    2          -15         13   # BR(hh_2 -> Fe_3^* Fe_2 )
+     6.27541975E-14    2          -15         15   # BR(hh_2 -> Fe_3^* Fe_3 )
+     8.28487087E-07    2           -2          6   # BR(hh_2 -> Fu_1^* Fu_3 )
+     1.41718284E-14    2           -4          4   # BR(hh_2 -> Fu_2^* Fu_2 )
+     1.19791149E-04    2           -4          6   # BR(hh_2 -> Fu_2^* Fu_3 )
+     9.00373453E-07    2           -6          2   # BR(hh_2 -> Fu_3^* Fu_1 )
+     1.30183467E-04    2           -6          4   # BR(hh_2 -> Fu_3^* Fu_2 )
+     1.60536631E-01    2           -6          6   # BR(hh_2 -> Fu_3^* Fu_3 )
+     5.62717058E-10    2           25         25   # BR(hh_2 -> hh_1 hh_1 )
+     2.68568642E-05    2           37         24   # BR(hh_2 -> Hm_2 VWp )
+     2.68568642E-05    2          -37        -24   # BR(hh_2 -> Hm_2^* VWp^* )
+     4.19397772E-01    2       900037         24   # BR(hh_2 -> Hm_3 VWp )
+     4.19397772E-01    2      -900037        -24   # BR(hh_2 -> Hm_3^* VWp^* )
+     1.35477471E-15    2          -37     900037   # BR(hh_2 -> Hm_2^* Hm_3 )
+     1.35477471E-15    2      -900037         37   # BR(hh_2 -> Hm_3^* Hm_2 )
+     6.28985777E-09    2           24        -24   # BR(hh_2 -> VWp VWp^* )
+     3.09933618E-09    2           23         23   # BR(hh_2 -> VZ VZ )
+DECAY        37     3.04295278E+00   # Hm_2
 #    BR                NDA      ID1      ID2
-     1.66812604E-02    2           -5          6   # BR(Hm_2 -> Fd_3^* Fu_3 )
-     6.16165773E-09    2          -11         12   # BR(Hm_2 -> Fe_1^* Fv_1 )
-     2.57321151E-02    2          -11         14   # BR(Hm_2 -> Fe_1^* Fv_2 )
-     4.63560397E-01    2          -11         16   # BR(Hm_2 -> Fe_1^* Fv_3 )
-     2.56749440E-02    2          -13         12   # BR(Hm_2 -> Fe_2^* Fv_1 )
-     6.16165751E-09    2          -13         14   # BR(Hm_2 -> Fe_2^* Fv_2 )
-     2.39774155E-03    2          -13         16   # BR(Hm_2 -> Fe_2^* Fv_3 )
-     4.63555818E-01    2          -15         12   # BR(Hm_2 -> Fe_3^* Fv_1 )
-     2.39771182E-03    2          -15         14   # BR(Hm_2 -> Fe_3^* Fv_2 )
-     5.54115014E-10    2           25        -24   # BR(Hm_2 -> hh_1 VWp^* )
-DECAY    900037     7.73188179E+01   # Hm_3
+     1.16086749E-05    2           -5          6   # BR(Hm_2 -> Fd_3^* Fu_3 )
+     1.16015637E-09    2          -11         12   # BR(Hm_2 -> Fe_1^* Fv_1 )
+     5.52241622E-02    2          -11         14   # BR(Hm_2 -> Fe_1^* Fv_2 )
+     4.41237895E-01    2          -11         16   # BR(Hm_2 -> Fe_1^* Fv_3 )
+     5.52241310E-02    2          -13         12   # BR(Hm_2 -> Fe_2^* Fv_1 )
+     3.56725287E-03    2          -13         16   # BR(Hm_2 -> Fe_2^* Fv_3 )
+     4.41168257E-01    2          -15         12   # BR(Hm_2 -> Fe_3^* Fv_1 )
+     3.56669186E-03    2          -15         14   # BR(Hm_2 -> Fe_3^* Fv_2 )
+DECAY    900037     7.88253700E+00   # Hm_3
 #    BR                NDA      ID1      ID2
-     1.32105478E-01    2           36        -24   # BR(Hm_3 -> etI VWp^* )
-     7.21513160E-01    2           -5          6   # BR(Hm_3 -> Fd_3^* Fu_3 )
-     2.57290444E-07    2          -11         12   # BR(Hm_3 -> Fe_1^* Fv_1 )
-     2.38749915E-03    2          -11         14   # BR(Hm_3 -> Fe_1^* Fv_2 )
-     3.03775108E-07    2          -11         16   # BR(Hm_3 -> Fe_1^* Fv_3 )
-     2.59865056E-07    2          -13         12   # BR(Hm_3 -> Fe_2^* Fv_1 )
-     2.57290439E-07    2          -13         14   # BR(Hm_3 -> Fe_2^* Fv_2 )
-     2.57530877E-07    2          -13         16   # BR(Hm_3 -> Fe_2^* Fv_3 )
-     4.64978202E-08    2          -15         12   # BR(Hm_3 -> Fe_3^* Fv_1 )
-     2.40473479E-10    2          -15         14   # BR(Hm_3 -> Fe_3^* Fv_2 )
-     7.55198316E-06    2           37         25   # BR(Hm_3 -> Hm_2 hh_1 )
-     3.76022551E-08    2           25        -24   # BR(Hm_3 -> hh_1 VWp^* )
-     1.43977861E-01    2           35        -24   # BR(Hm_3 -> hh_2 VWp^* )
-     7.02910869E-06    2           37         23   # BR(Hm_3 -> Hm_2 VZ )
-DECAY        36     4.35574103E+01   # etI
+     9.99951872E-01    2           -5          6   # BR(Hm_3 -> Fd_3^* Fu_3 )
+     1.37087652E-05    2          -11         12   # BR(Hm_3 -> Fe_1^* Fv_1 )
+     6.77539026E-06    2          -11         14   # BR(Hm_3 -> Fe_1^* Fv_2 )
+     1.27091266E-05    2          -11         16   # BR(Hm_3 -> Fe_1^* Fv_3 )
+     1.56750985E-06    2          -13         12   # BR(Hm_3 -> Fe_2^* Fv_1 )
+     1.01602009E-07    2          -13         16   # BR(Hm_3 -> Fe_2^* Fv_3 )
+     1.25199174E-05    2          -15         12   # BR(Hm_3 -> Fe_3^* Fv_1 )
+     1.01219378E-07    2          -15         14   # BR(Hm_3 -> Fe_3^* Fv_2 )
+     3.99188102E-09    2           25        -24   # BR(Hm_3 -> hh_1 VWp^* )
+     6.40274625E-07    2           37         23   # BR(Hm_3 -> Hm_2 VZ )
+DECAY        36     2.64227832E+02   # etI
 #    BR                NDA      ID1      ID2
-     6.39712934E-04    2           -5          5   # BR(etI -> Fd_3^* Fd_3 )
-     3.69958588E-07    2          -11         11   # BR(etI -> Fe_1^* Fe_1 )
-     1.71667864E-03    2          -11         13   # BR(etI -> Fe_1^* Fe_2 )
-     1.84987183E-07    2          -11         15   # BR(etI -> Fe_1^* Fe_3 )
-     1.71667864E-03    2          -13         11   # BR(etI -> Fe_2^* Fe_1 )
-     3.69958575E-07    2          -13         13   # BR(etI -> Fe_2^* Fe_2 )
-     1.84977534E-07    2          -13         15   # BR(etI -> Fe_2^* Fe_3 )
-     1.84987183E-07    2          -15         11   # BR(etI -> Fe_3^* Fe_1 )
-     1.84977534E-07    2          -15         13   # BR(etI -> Fe_3^* Fe_2 )
-     9.95925416E-01    2           -6          6   # BR(etI -> Fu_3^* Fu_3 )
-     3.38845838E-08    2           25         23   # BR(etI -> hh_1 VZ )
+     1.05455351E-04    2           -5          5   # BR(etI -> Fd_3^* Fd_3 )
+     1.10425873E-06    2          -11         11   # BR(etI -> Fe_1^* Fe_1 )
+     2.09786231E-07    2          -11         13   # BR(etI -> Fe_1^* Fe_2 )
+     7.58513480E-09    2          -11         15   # BR(etI -> Fe_1^* Fe_3 )
+     2.09786231E-07    2          -13         11   # BR(etI -> Fe_2^* Fe_1 )
+     1.51423541E-11    2          -13         15   # BR(etI -> Fe_2^* Fe_3 )
+     7.58513480E-09    2          -15         11   # BR(etI -> Fe_3^* Fe_1 )
+     1.51423541E-11    2          -15         13   # BR(etI -> Fe_3^* Fe_2 )
+     1.64176240E-01    2           -6          6   # BR(etI -> Fu_3^* Fu_3 )
+     5.58580339E-09    2           25         23   # BR(etI -> hh_1 VZ )
+     2.66546242E-05    2           37         24   # BR(etI -> Hm_2 VWp )
+     2.66546242E-05    2          -37        -24   # BR(etI -> Hm_2^* VWp^* )
+     4.17831725E-01    2       900037         24   # BR(etI -> Hm_3 VWp )
+     4.17831725E-01    2      -900037        -24   # BR(etI -> Hm_3^* VWp^* )
